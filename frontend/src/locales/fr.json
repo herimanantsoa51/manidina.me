@@ -1,0 +1,396 @@
+{
+  "header": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "about": "À propos de l'Admin",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title_main": "Des solutions numériques",
+    "title_accent": "simples et efficaces",
+    "subtitle": "Manidina transforme les processus manuels de votre entreprise en solutions digitales accessibles et performantes.",
+    "cta_services": "Découvrir nos services",
+    "cta_projects": "Voir nos projets",
+    "stats": {
+      "projects": "Projets"
+    }
+  },
+  "services": {
+    "title": "Ce que Manidina peut développer pour vous",
+    "intro": "Des solutions numériques complètes, de A à Z, adaptées à vos besoins réels",
+    "items": {
+      "education": {
+        "title": "Gestion d'Écoles & Institutions",
+        "desc": "Système complet : inscriptions, emplois du temps, notes, bulletins automatiques, communication parents-enseignants, suivi des présences et paiements. Interface web et mobile."
+      },
+      "business": {
+        "title": "Logiciels de Gestion d'Entreprise",
+        "desc": "Point de vente (POS), gestion de stock FIFO, comptabilité automatisée, facturation, multi-devises, tableaux de bord. Solutions pour commerces, épiceries et PME."
+      },
+      "automation": {
+        "title": "Automatisation & Notifications",
+        "desc": "Envoi automatique d'emails, SMS et WhatsApp. Rappels de paiement, confirmations de commande, alertes personnalisées. Workflows automatisés sans intervention manuelle."
+      },
+      "web": {
+        "title": "Sites Web & Applications",
+        "desc": "Sites vitrines, e-commerce, applications web et mobiles sur mesure. Design moderne, responsive et optimisé SEO. De la landing page au système multi-utilisateurs."
+      },
+      "traceability": {
+        "title": "Traçabilité & QR Codes",
+        "desc": "Systèmes de traçabilité produits avec QR codes, suivi du cycle de vie, authentification. Idéal pour l'artisanat, l'agriculture et l'agroalimentaire."
+      },
+      "ai": {
+        "title": "Intelligence Artificielle",
+        "desc": "Vision par ordinateur, détection d'objets, assistants IA personnalisés, analyse prédictive, chatbots intelligents. Automatisation des tâches complexes."
+      },
+      "data": {
+        "title": "Gestion & Analyse de Données",
+        "desc": "Transformation de vos fichiers Excel en bases de données structurées. Tableaux de bord interactifs, rapports automatiques, visualisation cartographique."
+      },
+      "network": {
+        "title": "Solutions Réseau & Hors-ligne",
+        "desc": "Gestion de bande passante, portails captifs, facturation Internet. Solutions fonctionnant même hors connexion, adaptées aux contraintes locales."
+      }
+    }
+  },
+  "projects_preview": {
+    "title": "Des solutions concrètes pour des besoins réels",
+    "description": "Découvrez comment Manidina a aidé des entreprises à automatiser leurs processus, organiser leurs données et gagner en efficacité au quotidien.",
+    "cta": "Voir tous les projets",
+    "stats": {
+      "projects_done": "Projets réalisés",
+      "happy_clients": "Clients satisfaits",
+      "sectors": "Secteurs d'activité"
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "subtitle": "Vous avez un projet en tête ou vous souhaitez simplement échanger ? N'hésitez pas à m'envoyer un message.",
+    "form": {
+      "name_label": "Nom complet",
+      "name_placeholder": "Votre nom",
+      "email_label": "Email",
+      "email_placeholder": "votre@email.com",
+      "message_label": "Message",
+      "message_placeholder": "Comment puis-je vous aider ?",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "✅ Message envoyé avec succès ! Vérifiez votre boîte email (et les spams) pour la confirmation. Je vous répondrai très bientôt.",
+      "error": "Une erreur est survenue. Veuillez réessayer ou me contacter directement par mail."
+    },
+    "info": {
+      "title": "Mes coordonnées",
+      "desc": "Je suis basé à Antananarivo, mais je travaille avec des clients du monde entier.",
+      "email_manidina": "Email Manidina",
+      "email_personal": "Email Personnel",
+      "facebook": "Facebook",
+      "whatsapp": "WhatsApp / Téléphone",
+      "location": "Localisation"
+    }
+  },
+  "about": {
+    "title": "Qui est derrière Manidina",
+    "p1_prefix": "Manidina est créé et principalement géré par",
+    "p1_link": "Christian Herimanantsoa",
+    "p1_suffix": ", développeur passionné par la création de solutions numériques simples et efficaces.",
+    "p2": "Avec une expertise en développement web, automatisation et intelligence artificielle, Christian accompagne les petites entreprises dans leur transformation digitale avec des outils adaptés à leurs besoins réels.",
+    "p3": "Selon les projets, Christian collabore avec d'autres experts pour offrir des solutions complètes et sur mesure."
+  },
+  "portfolio": {
+    "profile_desc": "Étudiant en <a href=\"https://www.univ-antananarivo.mg/informatique\" target=\"_blank\" rel=\"noopener noreferrer\">Mention Informatique</a> à la <a href=\"https://sciences.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">Faculté des Sciences</a> de l'<a href=\"https://www.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">Université d'Antananarivo</a>, passionné par l'aviation et les technologies d'optimisation. Mes projets sont inspirés par ma fascination pour l'aéronautique, l'efficacité des systèmes et l'intelligence artificielle. Mon objectif est de combiner mes compétences en développement avec le secteur aérospatial pour créer des solutions innovantes.",
+    "skills_title": "Compétences Techniques",
+    "deployments_title": "Mes Déploiements & Réalisations",
+    "deployments_desc": "Voici où j'ai déjà déployé mes compétences : des solutions complètes mises en production pour des clients réels, des projets encore en étude et en attente d'investisseurs, et des projets purement pédagogiques nés de ma passion.",
+    "cta_title": "Intéressé par mon profil ?",
+    "cta_text": "Discutons de vos projets et de comment je peux vous aider",
+    "cta_btn": "Me contacter",
+    "location": "Antananarivo, Madagascar",
+    "project": {
+      "visit": "Visiter",
+      "facebook": "Facebook",
+      "features": "Fonctionnalités clés",
+      "overview": "Aperçu du déploiement",
+      "desktop_version": "Version Desktop",
+      "mobile_version": "Version Mobile",
+      "year": "Année",
+      "client": "Client",
+      "empty_desktop": "Captures d'écran desktop à venir",
+      "empty_mobile": "Captures d'écran mobile à venir",
+      "expand": "Agrandir"
+    },
+    "skills": {
+        "ai": "Intelligence Artificielle",
+        "frameworks": "Frameworks & Bibliothèques",
+        "databases": "Bases de Données",
+        "languages": "Langages de Programmation",
+        "automation": "Automation & DevOps"
+    },
+    "projects_list": {
+      "maintsovola": {
+        "tagline": "Financement & Agriculture",
+        "description": "Connecter les agriculteurs malagasy aux investisseurs pour une agriculture durable. Plateforme web et mobile facilitant le financement participatif de projets agricoles, avec suivi en temps réel et conseils personnalisés pour maximiser les rendements. Je fais partie de l'équipe qui développe l'interface mobile avec react native. c'est un projet en cours.",
+        "client": "Maintsovola",
+        "stats": {
+          "farmers": "Agriculteurs",
+          "projects": "Projets soutenus",
+          "communities": "Communautés rurales"
+        },
+        "features": {
+          "management": { "title": "Gestion Agricole", "desc": "Suivi des cultures, calendrier des récoltes et conseils agronomiques personnalisés" },
+          "social": { "title": "Réseau Communautaire", "desc": "Mise en relation directe entre agriculteurs et investisseurs sans intermédiaire" },
+          "map": { "title": "Géolocalisation des Terres", "desc": "Cartographie interactive des parcelles et suivi visuel de l'avancement des projets" },
+          "finance": { "title": "Transparence Financière", "desc": "Suivi en temps réel des investissements et des rendements prévisionnels" },
+          "funding": { "title": "Financement Rapide", "desc": "Système de levée de fonds simplifié via mobile money et virements bancaires" },
+          "ai": { "title": "IA Agronomique", "desc": "Analyse prédictive des risques climatiques et optimisation des rendements" }
+        }
+      },
+      "trashlink": {
+        "tagline": "Valorisation & Recyclage 2.0",
+        "description": "Projet en phase de recherche d'investisseurs et d'étude approfondie, réalisé en collaboration. Trashlink vise à faciliter la gestion des déchets en les valorisant pour les producteurs de biogaz et les recycleurs. En connectant tous les acteurs de la chaîne, nous encourageons le recyclage actif via une plateforme incitative et technologique.",
+        "client": "Projet Innovation",
+        "stats": {
+          "precision": "Précision IA",
+          "time": "Temps optimisé",
+          "classes": "Classes détectées"
+        },
+        "features": {
+          "route": { "title": "Itinéraire Optimisé", "desc": "Calcul du chemin le plus court pour la collecte, réduisant les coûts logistiques" },
+          "cost": { "title": "Estimation des Coûts", "desc": "Évaluation instantanée de la valeur de rachat des déchets recyclables" },
+          "detection": { "title": "Détection IA (YOLO)", "desc": "Reconnaissance automatique des classes de déchets par vision par ordinateur" },
+          "assistant": { "title": "Assistant Expert RAG", "desc": "Assistant intelligent intégré pour guider les experts en recyclage" },
+          "biogas": { "title": "Valorisation Biogaz", "desc": "Mise en relation directe avec les producteurs d'énergie renouvelable" }
+        }
+      },
+      "varotra": {
+        "tagline": "Révolution du Commerce de Détail",
+        "description": "Solution révolutionnaire d'automatisation complète pour les commerces, épiceries et grandes surfaces. Varotra Intelliz transforme l'expérience d'achat en combinant robotique intelligente et vision par ordinateur. Le système intègre un bras robotique guidé par IA qui détecte et récupère automatiquement les articles commandés, les plaçant sur un système de convoyeur intelligent. Les clients commandent via une interface web multi-plateforme (téléphone, ordinateur, tablette) ou même par téléphone via Asterisk pour les zones sans Internet. Le système inclut également un module de paiement automatisé utilisant un modèle YOLO réentraîné pour reconnaître les billets Ariary malgaches et rendre automatiquement la monnaie. Projet de fin d'année L2 réalisé en collaboration, mon rôle principal était l'entraînement des modèles d'IA et la conception/montage du bras robotique.",
+        "client": "Projet Académique L2",
+        "stats": {
+          "precision": "Précision détection",
+          "time": "Temps traitement",
+          "recognition": "Reconnaissance billets"
+        },
+        "features": {
+          "vision": { "title": "Computer Vision YOLO", "desc": "Détection en temps réel des produits avec localisation précise des coordonnées pour guidage robotique" },
+          "robot": { "title": "Bras Robotique Intelligent", "desc": "Système mécanique piloté par ESP32 capable de saisir et déplacer les articles commandés avec précision" },
+          "platform": { "title": "Commande Multi-Plateforme", "desc": "Application web PHP/MySQL accessible depuis téléphone, tablette ou ordinateur pour passer commande" },
+          "offline": { "title": "Système Hors-Ligne", "desc": "Commande vocale via Asterisk avec notification SMS pour zones sans connexion Internet" },
+          "payment": { "title": "Paiement Automatisé", "desc": "Reconnaissance des billets Ariary par YOLO réentraîné avec rendu de monnaie automatique via Raspberry Pi" },
+          "monitoring": { "title": "Supervision Temps Réel", "desc": "Monitoring vidéo multi-caméras et coordination centralisée des opérations par serveur IA" }
+        },
+        "images": {
+            "control": "Interface de controle admin et détection des produits par computer vision",
+            "money": "Controle de détection du model YOLO pour la reconnaissance des billets Ariary malgaches"
+        }
+      },
+      "manidina": {
+        "tagline": "Intelligence Aéroportuaire Mondiale",
+        "description": "Projet ambitieux né d'un exercice pédagogique de gestion de bases de données, Manidina Aviation est devenu un système complet d'agrégation et d'exploitation de données aéroportuaires mondiales. Le projet rassemble des bases de données exhaustives sur 89 000+ aéroports, leurs pistes, fréquences ATC, navaids, routes aériennes et compagnies. Après une phase intensive de data cleaning et d'optimisation avec Python/Pandas, le système offre des fonctionnalités avancées de visualisation cartographique, recherche multi-critères, analyses statistiques et calcul de routes optimales inspiré de l'algorithme de Dijkstra. L'architecture technique combine React pour l'interface, Javalin (Java) pour l'API backend et PostgreSQL pour le stockage. Projet personnel en développement continu, la roadmap inclut l'intégration d'IA pour des recommandations personnalisées et des données météorologiques en temps réel, avec l'objectif d'automatiser les tâches manuelles des pilotes et contrôleurs aériens.",
+        "client": "Projet Personnel",
+        "stats": {
+          "airports": "Aéroports",
+          "routes": "Routes analysées",
+          "countries": "Pays couverts"
+        },
+        "features": {
+            "map": { "title": "Cartographie Interactive", "desc": "Visualisation mondiale avec clustering intelligent, filtrage multi-critères et affichage des routes aériennes" },
+            "data": { "title": "Agrégation de Données", "desc": "Collecte et structuration de données aéroportuaires complètes : pistes, fréquences ATC, navaids, waypoints" },
+            "analytics": { "title": "Analyses Avancées", "desc": "Statistiques par pays/région, analyses de connectivité, rankings des hubs majeurs et métriques de trafic" },
+            "pathfinding": { "title": "Algorithmes de Pathfinding", "desc": "Calcul de routes optimales entre aéroports inspiré de Dijkstra, avec gestion des contraintes (en développement)" },
+            "cleaning": { "title": "Data Cleaning IA", "desc": "Pipeline Python/Pandas pour nettoyage, normalisation et enrichissement automatique des données sources" },
+            "roadmap": { "title": "Roadmap IA & Temps Réel", "desc": "Futures intégrations : recommandations intelligentes, météo en temps réel, automatisation des calculs pilotes/ATC" }
+        },
+        "images": {
+            "map": "Map interactive des aéroports mondiaux avec clustering et filtres avancés",
+            "details": "Détails d'un aéroport avec pistes, fréquences ATC et navaids",
+            "runway": "Détails d'une piste",
+            "search": "Recherche et analyse avancé d'aéroports",
+            "routes": "Recherche de routes",
+            "navaids": "Navaids ou aides à la navigation aérienne",
+            "path": "Recherche du plus court chemin entre deux aéroports en regardant les routes aériennes disponibles opérés par des compagnies",
+            "path_view": "Vu du plus court chemin",
+            "route_details": "détails d'une route aérienne"
+        }
+      },
+      "gigapayant": {
+        "tagline": "Internet Local Équitable",
+        "description": "Solution innovante de répartition équitable de la bande passante dans un réseau local (LAN), GigaPayant transforme la distribution Internet en système de facturation à l'usage similaire aux opérateurs téléphoniques. Le système permet de facturer par Mo ou Go consommés via un système de codes d'accès sécurisés à 14 caractères. Développé en collaboration avec une équipe de networking, ce projet pose les fondations d'une potentielle entreprise de fourniture d'accès Internet local évolutive. L'architecture Laravel offre une interface utilisateur intuitive et un panneau d'administration complet pour la gestion des codes prépayés, le monitoring de consommation et les statistiques d'usage. Ma contribution principale s'est concentrée sur le développement de l'interface administrateur, l'interface utilisateur et le système de génération/validation des codes à 14 caractères avec algorithme anti-fraude.",
+        "client": "Projet Réseau Collaboratif",
+        "stats": {
+          "codes": "Codes générables",
+          "security": "Sécurité",
+          "granularity": "Granularité"
+        },
+        "features": {
+            "fairness": { "title": "Répartition Équitable", "desc": "Distribution intelligente de la bande passante basée sur la consommation payée par chaque utilisateur" },
+            "billing": { "title": "Facturation à l'Usage", "desc": "Système de paiement au Mo/Go consommé, similaire aux forfaits mobiles des opérateurs téléphoniques" },
+            "security": { "title": "Codes Sécurisés 14 Caractères", "desc": "Génération algorithmique de codes d'accès uniques avec validation anti-fraude et gestion d'expiration" },
+            "admin": { "title": "Interface Administrateur", "desc": "Panneau de contrôle complet pour génération de codes, monitoring réseau et statistiques détaillées" },
+            "user": { "title": "Gestion Utilisateurs", "desc": "Interface utilisateur pour activation de codes, consultation de solde et historique de consommation" },
+            "scale": { "title": "Modèle Évolutif", "desc": "Architecture scalable pensée pour évolution vers une entreprise locale de fourniture d'accès Internet" }
+        },
+        "images": {
+            "admin": "Interface administrateur pour la gestion des codes d'accès et le monitoring réseau",
+            "codes": "Gestion de code"
+        }
+      },
+      "scraping": {
+        "tagline": "Automation n8n & Validation IA",
+        "description": "Projet pédagogique explorant la puissance de l'automatisation low-code combinée à l'intelligence artificielle pour la constitution de datasets. L'objectif était de cartographier les restaurants chinois à Antananarivo. Le système repose sur un workflow n8n complexe orchestrant le scraping automatisé de données et de photos via des APIs tierces. La pipeline de données intègre une phase critique de validation : des scripts Python assurent le nettoyage et la structuration des métadonnées, tandis qu'un modèle de vision par ordinateur YOLO, exécuté sur Google Colab, analyse et trie automatiquement les images collectées pour ne conserver que celles pertinemment liées à la restauration, éliminant le bruit visuel.",
+        "client": "Projet Pédagogique",
+        "stats": {
+          "sources": "Sources Scrapées",
+          "filtering": "Filtrage IA",
+          "automation": "Automation"
+        },
+        "features": {
+            "n8n": { "title": "Orchestration n8n", "desc": "Workflow d'automatisation complet gérant les appels API, le flux de données et le stockage" },
+            "scraping": { "title": "Scraping Automatisé", "desc": "Extraction massive de données contextuelles et d'images sur les établissements ciblés" },
+            "python": { "title": "Post-traitement Python", "desc": "Algorithmes de nettoyage de données pour structurer et valider les informations textuelles" },
+            "yolo": { "title": "Tri Visuel YOLO", "desc": "Validation des images sur Google Colab par IA pour garantir la pertinence du contenu visuel" }
+        },
+        "images": {
+            "result": "vue du résultat",
+            "workflow": "Workflow n8n complexe d'automatisation des tâches de scraping"
+        }
+      },
+      "atc": {
+        "tagline": "Simulation & Automatisation ATC",
+        "description": "Projet pédagogique de première année (L1) développé par passion pour l'aviation et la programmation système, ce simulateur en C/SDL2 vise à automatiser les tâches critiques des contrôleurs aériens de l'aéroport international Ivato de Tananarive. Le système gère intelligemment l'allocation des parkings en temps réel, surveille la capacité maximale de l'aéroport, calcule des trajectoires d'urgence vers d'autres aéroports en cas de nécessité, et planifie automatiquement les horaires d'arrivée/départ (scheduling). L'interface propose une vue satellite immersive permettant une visualisation en temps réel des mouvements aériens et des opérations au sol. Développé entièrement en C avec la bibliothèque graphique SDL2, ce projet de fin d'année L1 démontre une compréhension précoce des systèmes critiques et des algorithmes de planification, tout en reflétant une passion profonde pour le domaine aéronautique.",
+        "client": "Projet Académique L1",
+        "stats": {
+          "parkings": "Parkings gérés",
+          "emergency": "Aéroports urgence",
+          "response": "Temps réponse"
+        },
+        "features": {
+            "satellite": { "title": "Vue Satellite Temps Réel", "desc": "Interface graphique SDL2 offrant une visualisation immersive des opérations aéroportuaires et mouvements aériens" },
+            "parkings": { "title": "Gestion Intelligente Parkings", "desc": "Algorithme d'allocation optimale des positions de stationnement selon disponibilité, type d'appareil et durée estimée" },
+            "monitoring": { "title": "Monitoring Capacité", "desc": "Surveillance en temps réel de la capacité maximale de l'aéroport avec alertes automatiques de saturation" },
+            "trajectory": { "title": "Calcul Trajectoires Urgence", "desc": "Système de calcul automatique de routes de déroutement vers aéroports alternatifs en cas d'urgence ou fermeture" },
+            "scheduling": { "title": "Scheduling Automatisé", "desc": "Planification intelligente des horaires d'arrivée et de départ pour optimisation du flux de trafic aérien" },
+            "performance": { "title": "Performance C/SDL2", "desc": "Architecture bas niveau en C garantissant temps de réponse critiques et rendu graphique fluide via SDL2" }
+        },
+        "images": {
+            "tnr": "Aéroport international Ivato - Tananarive dans le simulateur",
+            "jfk": "JFK en cours de développement"
+        }
+      }
+    }
+  },
+  "footer": {
+    "created_by": "Créé et géré par",
+    "rights": "Tous droits réservés",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "contact": "Contact"
+  },
+  "projects_page": {
+    "hero": {
+      "title_prefix": "Nos Grosses",
+      "title_highlight": "Réalisations",
+      "subtitle": "Une sélection de projets ambitieux qui ont eu un impact réel sur le business de nos clients."
+    },
+    "visit": "Visiter",
+    "features_title": "Fonctionnalités Clés",
+    "screenshots_title": "Aperçu de l'interface",
+    "desktop_version": "Version Bureau",
+    "mobile_version": "Version Mobile",
+    "empty_carousel": {
+      "desktop": "Pas de capture d'écran bureau disponible",
+      "mobile": "Pas de capture d'écran mobile disponible"
+    },
+    "stats_labels": {
+      "transactions": "Transactions",
+      "products": "Produits",
+      "locations": "Points de vente",
+      "users": "Utilisateurs",
+      "tracked_items": "Articles suivis",
+      "creators": "Créateurs"
+    },
+    "admin_projects_link": "Voir les autres projets et déploiements",
+    "cta": {
+      "title": "Vous avez un projet ambitieux ?",
+      "subtitle": "Discutons de la manière dont nous pouvons vous aider à le réaliser.",
+      "button": "Démarrer un projet"
+    },
+    "projects": {
+      "express_sale": {
+        "name": "Express Sale",
+        "tagline": "Solution complète de gestion de point de vente",
+        "description": "Une application desktop et web unifiée pour la gestion de plusieurs boutiques, intégrant la gestion de stock, la comptabilité et les ressources humaines.",
+        "features": {
+          "pos": {
+            "title": "Point de Vente",
+            "desc": "Interface caisse optimisée pour la rapidité"
+          },
+          "fifo": {
+            "title": "Gestion FIFO",
+            "desc": "Calcul précis des coûts et marges"
+          },
+          "accounting": {
+            "title": "Comptabilité",
+            "desc": "Bilan, compte de résultat automatisés"
+          },
+          "multicurrency": {
+            "title": "Multi-devises",
+            "desc": "Gestion Ariary/Euro fluide"
+          },
+          "reservations": {
+            "title": "Réservations",
+            "desc": "Module de mise de côté et accomptes"
+          },
+          "stats": {
+            "title": "Statistiques",
+            "desc": "Tableaux de bord décisionnels"
+          }
+        },
+        "images": [
+          { "caption": "Tableau de bord principal" },
+          { "caption": "Interface de vente (POS)" },
+          { "caption": "Gestion des articles" },
+          { "caption": "Historique des ventes" },
+          { "caption": "Gestion des stocks" },
+          { "caption": "Rapports financiers" },
+          { "caption": "Configuration système" },
+          { "caption": "Gestion des utilisateurs" },
+          { "caption": "Facturation" },
+          { "caption": "Ticket de caisse" },
+          { "caption": "Analyse des ventes" },
+          { "caption": "Vue d'ensemble" }
+        ]
+      },
+      "soaharilandy": {
+        "name": "Soaharilandy",
+        "tagline": "Traçabilité et authentification de la soie",
+        "description": "Application mobile permettant de suivre le cycle de vie des produits en soie, de la production à la vente, garantissant l'authenticité et la qualité.",
+        "features": {
+          "multiuser": {
+            "title": "Multi-utilisateur",
+            "desc": "Gestion des rôles et permissions"
+          },
+          "qrcode": {
+            "title": "QR Code",
+            "desc": "Génération et scan pour traçabilité"
+          },
+          "stats": {
+            "title": "Statistiques",
+            "desc": "Suivi de production en temps réel"
+          },
+          "sales": {
+            "title": "Vente",
+            "desc": "Module de commercialisation intégré"
+          }
+        },
+        "images": [
+            { "caption": "Page d'accueil" },
+            { "caption": "Scan QR Code" },
+            { "caption": "Liste des produits" },
+            { "caption": "Détail produit" },
+            { "caption": "Profil utilisateur" },
+            { "caption": "Historique" }
+        ]
+      }
+    }
+  }
+}

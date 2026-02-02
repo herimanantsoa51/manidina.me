@@ -1,0 +1,13 @@
+# Robots.txt pour manidina.me
+# Permet aux moteurs de recherche d'indexer tout le site
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://manidina.me/sitemap.xml
+
+# Bloquer les fichiers non nécessaires
+Disallow: /assets/
+Disallow: /*.js$
+Disallow: /*.css$

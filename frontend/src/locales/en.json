@@ -1,0 +1,549 @@
+{
+  "header": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About Admin",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title_main": "Digital solutions",
+    "title_accent": "simple and effective",
+    "subtitle": "Manidina transforms your business manual processes into accessible, high-performance digital solutions.",
+    "cta_services": "Discover our services",
+    "cta_projects": "View our projects",
+    "stats": {
+      "projects": "Projects"
+    }
+  },
+  "services": {
+    "title": "What Manidina can build for you",
+    "intro": "Complete digital solutions, from A to Z, tailored to your real needs",
+    "items": {
+      "education": {
+        "title": "School & Institution Management",
+        "desc": "Complete system: enrollments, schedules, grades, automatic report cards, parent-teacher communication, attendance and payment tracking. Web and mobile interface."
+      },
+      "business": {
+        "title": "Business Management Software",
+        "desc": "Point of Sale (POS), FIFO inventory management, automated accounting, invoicing, multi-currency, dashboards. Solutions for shops, groceries and SMEs."
+      },
+      "automation": {
+        "title": "Automation & Notifications",
+        "desc": "Automatic sending of emails, SMS and WhatsApp. Payment reminders, order confirmations, personalized alerts. Automated workflows without manual intervention."
+      },
+      "web": {
+        "title": "Websites & Applications",
+        "desc": "Showcase sites, e-commerce, custom web and mobile apps. Modern, responsive and SEO-optimized design. From landing page to multi-user systems."
+      },
+      "traceability": {
+        "title": "Traceability & QR Codes",
+        "desc": "Product traceability systems with QR codes, lifecycle tracking, authentication. Ideal for crafts, agriculture and food industry."
+      },
+      "ai": {
+        "title": "Artificial Intelligence",
+        "desc": "Computer vision, object detection, custom AI assistants, predictive analysis, smart chatbots. Automation of complex tasks."
+      },
+      "data": {
+        "title": "Data Management & Analytics",
+        "desc": "Transform your Excel files into structured databases. Interactive dashboards, automatic reports, map visualization."
+      },
+      "network": {
+        "title": "Network & Offline Solutions",
+        "desc": "Bandwidth management, captive portals, Internet billing. Solutions working even offline, adapted to local constraints."
+      }
+    }
+  },
+  "projects_preview": {
+    "title": "Concrete solutions for real needs",
+    "description": "Discover how Manidina has helped businesses automate processes, organize data, and gain efficiency every day.",
+    "cta": "View all projects",
+    "stats": {
+      "projects_done": "Projects Completed",
+      "happy_clients": "Happy Clients",
+      "sectors": "Business Sectors"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Have a project in mind or just want to chat? Feel free to send me a message.",
+    "form": {
+      "name_label": "Full Name",
+      "name_placeholder": "Your name",
+      "email_label": "Email",
+      "email_placeholder": "your@email.com",
+      "message_label": "Message",
+      "message_placeholder": "How can I help you?",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I will reply very soon.",
+      "error": "An error occurred. Please try again or contact me directly by email."
+    },
+    "info": {
+      "title": "My Contact Info",
+      "desc": "I am based in Antananarivo, but I work with clients worldwide.",
+      "email_manidina": "Manidina Email",
+      "email_personal": "Personal Email",
+      "facebook": "Facebook",
+      "whatsapp": "WhatsApp / Phone",
+      "location": "Location"
+    }
+  },
+  "about": {
+    "title": "Who is behind Manidina",
+    "p1_prefix": "Manidina is created and mainly managed by",
+    "p1_link": "Christian Herimanantsoa",
+    "p1_suffix": ", a developer passionate about creating simple and efficient digital solutions.",
+    "p2": "With expertise in web development, automation, and artificial intelligence, Christian accompanies small businesses in their digital transformation with tools adapted to their real needs.",
+    "p3": "Depending on the projects, Christian collaborates with other experts to offer complete and tailored solutions."
+  },
+  "portfolio": {
+    "profile_desc": "Student in <a href=\"https://www.univ-antananarivo.mg/informatique\" target=\"_blank\" rel=\"noopener noreferrer\">Computer Science</a> at the <a href=\"https://sciences.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">Faculty of Sciences</a> of the <a href=\"https://www.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">University of Antananarivo</a>, passionate about aviation and optimization technologies. My projects are inspired by my fascination for aeronautics, system efficiency, and artificial intelligence. My goal is to combine my development skills with the aerospace sector to create innovative solutions.",
+    "skills_title": "Technical Skills",
+    "deployments_title": "My Deployments & Achievements",
+    "deployments_desc": "Here is where I have already deployed my skills: complete solutions put into production for real clients, projects still under study and awaiting investors, and purely educational projects born from my passion.",
+    "cta_title": "Interested in my profile?",
+    "cta_text": "Let's discuss your projects and how I can help you",
+    "cta_btn": "Contact me",
+    "location": "Antananarivo, Madagascar",
+    "project": {
+      "visit": "Visit",
+      "facebook": "Facebook",
+      "features": "Key Features",
+      "overview": "Deployment Overview",
+      "desktop_version": "Desktop Version",
+      "mobile_version": "Mobile Version",
+      "year": "Year",
+      "client": "Client",
+      "empty_desktop": "Desktop screenshots coming soon",
+      "empty_mobile": "Mobile screenshots coming soon",
+      "expand": "Expand"
+    },
+    "skills": {
+      "ai": "Artificial Intelligence",
+      "frameworks": "Frameworks & Libraries",
+      "databases": "Databases",
+      "languages": "Programming Languages",
+      "automation": "Automation & DevOps"
+    },
+    "projects_list": {
+      "maintsovola": {
+        "tagline": "Funding & Agriculture",
+        "description": "Connecting Malagasy farmers with investors for sustainable agriculture. Web and mobile platform facilitating crowdfunding for agricultural projects, with real-time tracking and personalized advice to maximize yields. I am part of the team developing the mobile interface with React Native. It is an ongoing project.",
+        "client": "Maintsovola",
+        "stats": {
+          "farmers": "Farmers",
+          "projects": "Supported Projects",
+          "communities": "Rural Communities"
+        },
+        "features": {
+          "management": {
+            "title": "Farm Management",
+            "desc": "Crop tracking, harvest calendar, and personalized agronomic advice"
+          },
+          "social": {
+            "title": "Community Network",
+            "desc": "Direct connection between farmers and investors without intermediaries"
+          },
+          "map": {
+            "title": "Land Geolocation",
+            "desc": "Interactive mapping of plots and visual tracking of project progress"
+          },
+          "finance": {
+            "title": "Financial Transparency",
+            "desc": "Real-time tracking of investments and projected yields"
+          },
+          "funding": {
+            "title": "Rapid Funding",
+            "desc": "Simplified fundraising system via mobile money and bank transfers"
+          },
+          "ai": {
+            "title": "Agronomic AI",
+            "desc": "Predictive analysis of climate risks and yield optimization"
+          }
+        }
+      },
+      "trashlink": {
+        "tagline": "Recovery & Recycling 2.0",
+        "description": "Project in the phase of seeking investors and in-depth study, carried out in collaboration. Trashlink aims to facilitate waste management by recovering it for biogas producers and recyclers. By connecting all actors in the chain, we encourage active recycling via an incentive and technological platform.",
+        "client": "Innovation Project",
+        "stats": {
+          "precision": "AI Precision",
+          "time": "Optimized Time",
+          "classes": "Detected Classes"
+        },
+        "features": {
+          "route": {
+            "title": "Optimized Route",
+            "desc": "Route calculation for collection, reducing logistical costs"
+          },
+          "cost": {
+            "title": "Cost Estimation",
+            "desc": "Instant evaluation of the buyback value of recyclable waste"
+          },
+          "detection": {
+            "title": "AI Detection (YOLO)",
+            "desc": "Automatic recognition of waste classes by computer vision"
+          },
+          "assistant": {
+            "title": "RAG Expert Assistant",
+            "desc": "Integrated intelligent assistant to guide recycling experts"
+          },
+          "biogas": {
+            "title": "Biogas Recovery",
+            "desc": "Direct connection with renewable energy producers"
+          }
+        }
+      },
+      "varotra": {
+        "tagline": "Retail Revolution",
+        "description": "Revolutionary complete automation solution for grocery stores and supermarkets. Varotra Intelliz transforms the shopping experience by combining intelligent robotics and computer vision. The system integrates an AI-guided robotic arm that automatically detects and picks up ordered items, placing them on a smart conveyor system. Customers order via a multi-platform web interface (phone, computer, tablet) or even by phone via Asterisk for areas without Internet. The system also includes an automated payment module using a retrained YOLO model to recognize Malagasy Ariary banknotes and automatically give change. L2 year-end project carried out in collaboration, my main role was training AI models and designing/assembling the robotic arm.",
+        "client": "Academic Project L2",
+        "stats": {
+          "precision": "Detection Precision",
+          "time": "Processing Time",
+          "recognition": "Bill Recognition"
+        },
+        "features": {
+          "vision": {
+            "title": "Computer Vision YOLO",
+            "desc": "Real-time product detection with precise coordinate localization for robotic guidance"
+          },
+          "robot": {
+            "title": "Intelligent Robotic Arm",
+            "desc": "ESP32-driven mechanical system capable of grasping and moving ordered items with precision"
+          },
+          "platform": {
+            "title": "Multi-Platform Ordering",
+            "desc": "PHP/MySQL web application accessible from phone, tablet, or computer to place orders"
+          },
+          "offline": {
+            "title": "Offline System",
+            "desc": "Voice command via Asterisk with SMS notification for areas without Internet connection"
+          },
+          "payment": {
+            "title": "Automated Payment",
+            "desc": "Recognition of Ariary banknotes by retrained YOLO with automatic change dispensing via Raspberry Pi"
+          },
+          "monitoring": {
+            "title": "Real-Time Supervision",
+            "desc": "Multi-camera video monitoring and centralized coordination of operations by AI server"
+          }
+        },
+        "images": {
+          "control": "Admin control interface and product detection by computer vision",
+          "money": "Control of YOLO model detection for Malagasy Ariary banknote recognition"
+        }
+      },
+      "manidina": {
+        "tagline": "Global Airport Intelligence",
+        "description": "Ambitious project born from a database management educational exercise, Manidina Aviation is became a complete system for aggregating and exploiting global airport data. The project gathers comprehensive databases on 89,000+ airports, their runways, ATC frequencies, navaids, aerial routes, and airlines. After an intensive phase of data cleaning and optimization with Python/Pandas, the system offers advanced features of map visualization, multi-criteria search, statistical analysis, and optimal route calculation inspired by Dijkstra's algorithm. The technical architecture combines React for the interface, Javalin (Java) for the backend API, and PostgreSQL for storage. Personal project in continuous development, the roadmap includes AI integration for personalized recommendations and real-time weather data, with the goal of automating manual tasks for pilots and air traffic controllers.",
+        "client": "Personal Project",
+        "stats": {
+          "airports": "Airports",
+          "routes": "Analyzed Routes",
+          "countries": "Covered Countries"
+        },
+        "features": {
+          "map": {
+            "title": "Interactive Mapping",
+            "desc": "Global visualization with intelligent clustering, multi-criteria filtering, and aerial route display"
+          },
+          "data": {
+            "title": "Data Aggregation",
+            "desc": "Collection and structuring of complete airport data: runways, ATC frequencies, navaids, waypoints"
+          },
+          "analytics": {
+            "title": "Advanced Analytics",
+            "desc": "Statistics by country/region, connectivity analyses, major hub rankings, and traffic metrics"
+          },
+          "pathfinding": {
+            "title": "Pathfinding Algorithms",
+            "desc": "Calculation of optimal routes between airports inspired by Dijkstra, with constraints management (in development)"
+          },
+          "cleaning": {
+            "title": "Data Cleaning AI",
+            "desc": "Python/Pandas pipeline for cleaning, normalization, and automatic enrichment of source data"
+          },
+          "roadmap": {
+            "title": "Roadmap AI & Real-Time",
+            "desc": "Future integrations: intelligent recommendations, real-time weather, automation of pilot/ATC calculations"
+          }
+        },
+        "images": {
+          "map": "Interactive map of global airports with clustering and advanced filters",
+          "details": "Details of an airport with runways, ATC frequencies, and navaids",
+          "runway": "Runway details",
+          "search": "Advanced airport search and analysis",
+          "routes": "Route search",
+          "navaids": "Navaids or aerial navigation aids",
+          "path": "Search for the shortest path between two airports looking at available aerial routes operated by airlines",
+          "path_view": "View of the shortest path",
+          "route_details": "Aerial route details"
+        }
+      },
+      "gigapayant": {
+        "tagline": "Fair Local Internet",
+        "description": "Innovative solution for fair bandwidth distribution in a local network (LAN), GigaPayant transforms Internet distribution into a usage-based billing system similar to mobile operators. The system allows billing per MB or GB consumed via a secure 14-character access code system. Developed in collaboration with a networking team, this project lays the foundation for a potentially scalable local Internet service provider business. The Laravel architecture offers an intuitive user interface and a complete administration panel for prepaid code management, consumption monitoring, and usage statistics. My main contribution focused on developing the administrator interface, the user interface, and the 14-character code generation/validation system with anti-fraud algorithm.",
+        "client": "Collaborative Network Project",
+        "stats": {
+          "codes": "Generatable Codes",
+          "security": "Security",
+          "granularity": "Granularity"
+        },
+        "features": {
+          "fairness": {
+            "title": "Fair Distribution",
+            "desc": "Intelligent bandwidth distribution based on consumption paid by each user"
+          },
+          "billing": {
+            "title": "Pay-as-you-go",
+            "desc": "Payment system per MB/GB consumed, similar to mobile operator plans"
+          },
+          "security": {
+            "title": "Secure 14-Character Codes",
+            "desc": "Algorithmic generation of unique access codes with anti-fraud validation and expiration management"
+          },
+          "admin": {
+            "title": "Administrator Interface",
+            "desc": "Complete control panel for code generation, network monitoring, and detailed statistics"
+          },
+          "user": {
+            "title": "User Management",
+            "desc": "User interface for code activation, balance consultation, and consumption history"
+          },
+          "scale": {
+            "title": "Scalable Model",
+            "desc": "Scalable architecture designed for evolution towards a local Internet service provider business"
+          }
+        },
+        "images": {
+          "admin": "Administrator interface for access code management and network monitoring",
+          "codes": "Code management"
+        }
+      },
+      "scraping": {
+        "tagline": "n8n Automation & AI Validation",
+        "description": "Educational project exploring the power of low-code automation combined with artificial intelligence for dataset creation. The goal was to map Chinese restaurants in Antananarivo. The system relies on a complex n8n workflow orchestrating automated scraping of data and photos via third-party APIs. The data pipeline integrates a critical validation phase: Python scripts ensure cleaning and structuring of metadata, while a YOLO computer vision model, executed on Google Colab, automatically analyzes and sorts collected images to keep only those relevant to restoration, eliminating visual noise.",
+        "client": "Educational Project",
+        "stats": {
+          "sources": "Scraped Sources",
+          "filtering": "AI Filtering",
+          "automation": "Automation"
+        },
+        "features": {
+          "n8n": {
+            "title": "n8n Orchestration",
+            "desc": "Complete automation workflow managing API calls, data flow, and storage"
+          },
+          "scraping": {
+            "title": "Automated Scraping",
+            "desc": "Massive extraction of contextual data and images on targeted establishments"
+          },
+          "python": {
+            "title": "Python Post-processing",
+            "desc": "Data cleaning algorithms to structure and validate textual information"
+          },
+          "yolo": {
+            "title": "YOLO Visual Sorting",
+            "desc": "Image validation on Google Colab by AI to guarantee visual content relevance"
+          }
+        },
+        "images": {
+          "result": "View of the result",
+          "workflow": "Complex n8n workflow for scraping task automation"
+        }
+      },
+      "atc": {
+        "tagline": "ATC Simulation & Automation",
+        "description": "First-year (L1) educational project developed out of passion for aviation and system programming, this C/SDL2 simulator aims to automate critical tasks of air traffic controllers at Ivato International Airport in Tananarive. The system intelligently manages parking allocation in real-time, monitors airport maximum capacity, calculates emergency trajectories to other airports if necessary, and automatically schedules arrival/departure times. The interface offers an immersive satellite view allowing real-time visualization of aerial movements and ground operations. Developed entirely in C with the SDL2 graphics library, this L1 year-end project demonstrates early understanding of critical systems and planning algorithms, while reflecting a deep passion for the aeronautical field.",
+        "client": "Academic Project L1",
+        "stats": {
+          "parkings": "Managed Parkings",
+          "emergency": "Emergency Airports",
+          "response": "Response Time"
+        },
+        "features": {
+          "satellite": {
+            "title": "Real-Time Satellite View",
+            "desc": "SDL2 graphical interface offering immersive visualization of airport operations and aerial movements"
+          },
+          "parkings": {
+            "title": "Intelligent Parking Management",
+            "desc": "Optimal parking position allocation algorithm based on availability, aircraft type, and estimated duration"
+          },
+          "monitoring": {
+            "title": "Capacity Monitoring",
+            "desc": "Real-time monitoring of airport maximum capacity with automatic saturation alerts"
+          },
+          "trajectory": {
+            "title": "Emergency Trajectory Calculation",
+            "desc": "Automatic calculation system for diversion routes to alternative airports in case of emergency or closure"
+          },
+          "scheduling": {
+            "title": "Automated Scheduling",
+            "desc": "Intelligent planning of arrival and departure schedules for air traffic flow optimization"
+          },
+          "performance": {
+            "title": "C/SDL2 Performance",
+            "desc": "Low-level C architecture guaranteeing critical response times and fluid graphical rendering via SDL2"
+          }
+        },
+        "images": {
+          "tnr": "Ivato International Airport - Tananarive in the simulator",
+          "jfk": "JFK under development"
+        }
+      }
+    }
+  },
+  "footer": {
+    "created_by": "Created and managed by",
+    "rights": "All rights reserved",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "contact": "Contact"
+  },
+  "projects_page": {
+    "hero": {
+      "title_prefix": "Our Major",
+      "title_highlight": "Achievements",
+      "subtitle": "A selection of ambitious projects that have had a real impact on our clients' businesses."
+    },
+    "visit": "Visit",
+    "features_title": "Key Features",
+    "screenshots_title": "Interface Overview",
+    "desktop_version": "Desktop Version",
+    "mobile_version": "Mobile Version",
+    "empty_carousel": {
+      "desktop": "No desktop screenshot available",
+      "mobile": "No mobile screenshot available"
+    },
+    "stats_labels": {
+      "transactions": "Transactions",
+      "products": "Products",
+      "locations": "Locations",
+      "users": "Users",
+      "tracked_items": "Tracked Items",
+      "creators": "Creators"
+    },
+    "admin_projects_link": "View other projects and deployments",
+    "cta": {
+      "title": "Have an ambitious project?",
+      "subtitle": "Let's discuss how we can help you make it happen.",
+      "button": "Start a project"
+    },
+    "projects": {
+      "express_sale": {
+        "name": "Express Sale",
+        "tagline": "Complete Point of Sale Solution",
+        "description": "A unified desktop and web application for managing multiple stores, integrating inventory management, accounting, and human resources.",
+        "features": {
+          "pos": {
+            "title": "Point of Sale",
+            "desc": "Optimized checkout interface for speed"
+          },
+          "fifo": {
+            "title": "FIFO Management",
+            "desc": "Precise cost and margin calculation"
+          },
+          "accounting": {
+            "title": "Accounting",
+            "desc": "Automated balance sheet and income statement"
+          },
+          "multicurrency": {
+            "title": "Multi-currency",
+            "desc": "Seamless Ariary/Euro management"
+          },
+          "reservations": {
+            "title": "Reservations",
+            "desc": "Layaway and deposit module"
+          },
+          "stats": {
+            "title": "Statistics",
+            "desc": "Decision-making dashboards"
+          }
+        },
+        "images": [
+          {
+            "caption": "Main Dashboard"
+          },
+          {
+            "caption": "Sales Interface (POS)"
+          },
+          {
+            "caption": "Item Management"
+          },
+          {
+            "caption": "Sales History"
+          },
+          {
+            "caption": "Inventory Management"
+          },
+          {
+            "caption": "Financial Reports"
+          },
+          {
+            "caption": "System Configuration"
+          },
+          {
+            "caption": "User Management"
+          },
+          {
+            "caption": "Invoicing"
+          },
+          {
+            "caption": "Receipt"
+          },
+          {
+            "caption": "Sales Analysis"
+          },
+          {
+            "caption": "Overview"
+          }
+        ]
+      },
+      "soaharilandy": {
+        "name": "Soaharilandy",
+        "tagline": "Silk Traceability and Authentication",
+        "description": "Mobile application allowing tracking of the silk product lifecycle, from production to sale, ensuring authenticity and quality.",
+        "features": {
+          "multiuser": {
+            "title": "Multi-user",
+            "desc": "Role and permission management"
+          },
+          "qrcode": {
+            "title": "QR Code",
+            "desc": "Generation and scanning for traceability"
+          },
+          "stats": {
+            "title": "Statistics",
+            "desc": "Real-time production tracking"
+          },
+          "sales": {
+            "title": "Sales",
+            "desc": "Integrated commercialization module"
+          }
+        },
+        "images": [
+          {
+            "caption": "Home Page"
+          },
+          {
+            "caption": "QR Code Scan"
+          },
+          {
+            "caption": "Product List"
+          },
+          {
+            "caption": "Product Detail"
+          },
+          {
+            "caption": "User Profile"
+          },
+          {
+            "caption": "History"
+          }
+        ]
+      }
+    }
+  }
+}

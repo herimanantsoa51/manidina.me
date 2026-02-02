@@ -1,0 +1,112 @@
+/* Footer */
+
+.footer {
+    background-color: var(--color-background-alt);
+    padding: var(--spacing-xl) 0 var(--spacing-md);
+    border-top: 1px solid var(--color-border);
+  }
+  
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+  }
+  
+  .footer__brand {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+  }
+  
+  .footer__logo {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+  
+  .footer__name {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  
+  .footer__info {
+    text-align: right;
+  }
+  
+  .footer__text {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 0.25rem;
+  }
+  
+  .footer__link {
+    color: var(--color-primary-dark);
+    font-weight: 500;
+    transition: color var(--transition-fast);
+  }
+  
+  .footer__link:hover {
+    color: var(--color-text);
+  }
+  
+  .footer__copyright {
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+  }
+  
+  .footer__divider {
+    height: 1px;
+    background-color: var(--color-border);
+    margin: var(--spacing-md) 0;
+  }
+  
+  .footer__bottom {
+    text-align: center;
+  }
+  
+  .footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+  }
+  
+  .footer__nav-link {
+    font-size: 0.875rem;
+    color: var(--color-text-secondary);
+    transition: color var(--transition-fast);
+  }
+  
+  .footer__nav-link:hover {
+    color: var(--color-text);
+  }
+  
+  .footer__separator {
+    color: var(--color-border);
+    font-size: 0.75rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer__content {
+      flex-direction: column;
+      gap: var(--spacing-md);
+      text-align: center;
+    }
+    
+    .footer__info {
+      text-align: center;
+    }
+    
+    .footer__nav {
+      flex-direction: column;
+      gap: var(--spacing-xs);
+    }
+    
+    .footer__separator {
+      display: none;
+    }
+  }
