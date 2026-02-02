@@ -8,3 +8,6 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+// Déclencher l'événement pour le pré-rendu SEO
+document.dispatchEvent(new Event('render-event'))
