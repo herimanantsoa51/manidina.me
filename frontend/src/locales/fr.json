@@ -91,13 +91,13 @@
   "about": {
     "title": "Qui est derrière Manidina",
     "p1_prefix": "Manidina est créé et principalement géré par",
-    "p1_link": "Christian Herimanantsoa",
-    "p1_suffix": ", développeur passionné par la création de solutions numériques simples et efficaces.",
+    "p1_link": "Christian HERIMANANTSOA",
+    "p1_suffix": ", analyste en systèmes d'information , passionné par la création de solutions numériques simples et efficaces.",
     "p2": "Avec une expertise en développement web, automatisation et intelligence artificielle, Christian accompagne les petites entreprises dans leur transformation digitale avec des outils adaptés à leurs besoins réels.",
     "p3": "Selon les projets, Christian collabore avec d'autres experts pour offrir des solutions complètes et sur mesure."
   },
   "portfolio": {
-    "profile_desc": "Étudiant en <a href=\"https://mit-ua.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Mention Informatique</a> à la <a href=\"https://siansa.univ-antananarivo.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Faculté des Sciences</a> de l'<a href=\"https://www.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">Université d'Antananarivo</a>, passionné par l'aviation et les technologies d'optimisation. Mes projets sont inspirés par ma fascination pour l'aéronautique, l'efficacité des systèmes et l'intelligence artificielle. Mon objectif est de combiner mes compétences en développement avec le secteur aérospatial pour créer des solutions innovantes.",
+    "profile_desc": "Je suis <strong>HERIMANANTSOA Manitriniaina Christian</strong>, étudiant en <a href=\"https://mit-ua.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Mention Informatique et Technologie</a> à la <a href=\"https://siansa.univ-antananarivo.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Faculté des Sciences</a> de l'<a href=\"https://www.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">Université d'Antananarivo</a>, passionné par l'aviation et les technologies d'optimisation. Mes projets sont inspirés par ma fascination pour l'aéronautique, l'efficacité des systèmes et l'intelligence artificielle. Mon objectif est de combiner mes compétences en développement avec le secteur aérospatial pour créer des solutions innovantes.",
     "skills_title": "Compétences Techniques",
     "deployments_title": "Mes Déploiements & Réalisations",
     "deployments_desc": "Voici où j'ai déjà déployé mes compétences : des solutions complètes mises en production pour des clients réels, des projets encore en étude et en attente d'investisseurs, et des projets purement pédagogiques nés de ma passion.",

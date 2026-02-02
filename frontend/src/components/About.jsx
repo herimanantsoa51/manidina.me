@@ -42,7 +42,7 @@ const About = () => {
               <motion.a 
                 href="/portfolio" 
                 className="about__link"
-                aria-label="Voir le portfolio de Christian Herimanantsoa"
+                aria-label="Voir le portfolio de Christian HERIMANANTSOA"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
