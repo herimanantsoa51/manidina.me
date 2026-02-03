@@ -2,7 +2,7 @@
   "header": {
     "home": "Accueil",
     "projects": "Projets",
-    "about": "À propos de l'Admin",
+    "about": "Portfolio",
     "contact": "Contact"
   },
   "hero": {
@@ -97,7 +97,7 @@
     "p3": "Selon les projets, Christian collabore avec d'autres experts pour offrir des solutions complètes et sur mesure."
   },
   "portfolio": {
-    "profile_desc": "Je suis <strong>HERIMANANTSOA Manitriniaina Christian</strong>, étudiant en <a href=\"https://mit-ua.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Mention Informatique et Technologie</a> à la <a href=\"https://siansa.univ-antananarivo.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Faculté des Sciences</a> de l'<a href=\"https://www.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">Université d'Antananarivo</a>, passionné par l'aviation et les technologies d'optimisation. Mes projets sont inspirés par ma fascination pour l'aéronautique, l'efficacité des systèmes et l'intelligence artificielle. Mon objectif est de combiner mes compétences en développement avec le secteur aérospatial pour créer des solutions innovantes mais aussi .",
+    "profile_desc": "Je suis <strong>HERIMANANTSOA Manitriniaina Christian</strong>, analyste en systèmes d'information et passionné d'Intelligence Artificielle, actuellement en formation à la <a href=\"https://mit-ua.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Mention Informatique et Technologie</a> de l'<a href=\"https://www.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">Université d'Antananarivo</a>.<br/><br/>🚀 <strong>Ce qui me définit :</strong> Je conçois des solutions technologiques qui ont un impact réel — de la robotique intelligente avec vision par ordinateur aux plateformes connectant agriculteurs et investisseurs. Ma passion pour l'<strong>aviation</strong> m'inspire à créer des systèmes optimisés et fiables, comme mon projet personnel agrégant les données de <strong>89 000+ aéroports mondiaux</strong>.<br/><br/>🌍 <strong>Ma mission :</strong> Utiliser la technologie pour résoudre les défis concrets de Madagascar — agriculture durable, gestion des déchets, accès équitable à Internet — tout en développant des compétences de niveau international en IA, automatisation et développement logiciel.",
     "skills_title": "Compétences Techniques",
     "deployments_title": "Mes Déploiements & Réalisations",
     "deployments_desc": "Voici où j'ai déjà déployé mes compétences : des solutions complètes mises en production pour des clients réels, des projets encore en étude et en attente d'investisseurs, et des projets purement pédagogiques nés de ma passion.",
