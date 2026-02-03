@@ -252,16 +252,17 @@ function Projects() {
         desktop: [
           { url: "/images/express_sale/express_sale7.png", caption: t('projects_page.projects.express_sale.images.0.caption') },
           { url: "/images/express_sale/express_sale8.png", caption: t('projects_page.projects.express_sale.images.1.caption') },
-          { url: "/images/express_sale/express_sale11.png", caption: t('projects_page.projects.express_sale.images.2.caption') },
-          { url: "/images/express_sale/express_sale3.png", caption: t('projects_page.projects.express_sale.images.3.caption') },
-          { url: "/images/express_sale/express_sale4.png", caption: t('projects_page.projects.express_sale.images.4.caption') },
-          { url: "/images/express_sale/express_sale5.png", caption: t('projects_page.projects.express_sale.images.5.caption') },
-          { url: "/images/express_sale/express_sale12.png", caption: t('projects_page.projects.express_sale.images.6.caption') },
-          { url: "/images/express_sale/express_sale6.png", caption: t('projects_page.projects.express_sale.images.7.caption') },
-          { url: "/images/express_sale/express_sale1.png", caption: t('projects_page.projects.express_sale.images.8.caption') },
-          { url: "/images/express_sale/express_sale2.png", caption: t('projects_page.projects.express_sale.images.9.caption') },
-          { url: "/images/express_sale/express_sale9.png", caption: t('projects_page.projects.express_sale.images.10.caption') },
-          { url: "/images/express_sale/express_sale10.png", caption: t('projects_page.projects.express_sale.images.11.caption') }
+          { url: "/images/express_sale/express_sale_ticket.jpeg", caption: t('projects_page.projects.express_sale.images.2.caption') },
+          { url: "/images/express_sale/express_sale11.png", caption: t('projects_page.projects.express_sale.images.3.caption') },
+          { url: "/images/express_sale/express_sale3.png", caption: t('projects_page.projects.express_sale.images.4.caption') },
+          { url: "/images/express_sale/express_sale4.png", caption: t('projects_page.projects.express_sale.images.5.caption') },
+          { url: "/images/express_sale/express_sale5.png", caption: t('projects_page.projects.express_sale.images.6.caption') },
+          { url: "/images/express_sale/express_sale12.png", caption: t('projects_page.projects.express_sale.images.7.caption') },
+          { url: "/images/express_sale/express_sale6.png", caption: t('projects_page.projects.express_sale.images.8.caption') },
+          { url: "/images/express_sale/express_sale1.png", caption: t('projects_page.projects.express_sale.images.9.caption') },
+          { url: "/images/express_sale/express_sale2.png", caption: t('projects_page.projects.express_sale.images.10.caption') },
+          { url: "/images/express_sale/express_sale9.png", caption: t('projects_page.projects.express_sale.images.11.caption') },
+          { url: "/images/express_sale/express_sale10.png", caption: t('projects_page.projects.express_sale.images.12.caption') }
         ],
         mobile: []
       }
