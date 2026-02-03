@@ -276,7 +276,7 @@ function Projects() {
       description: t('projects_page.projects.soaharilandy.description'),
       year: "2025",
       client: "Soaharilandy Madagascar",
-      technologies: ["React Native", "Supabase", "QR Code", "Multi-utilisateur"],
+      technologies: ["React Native", "Supabase", "QR Code", "Multi-utilisateur", "Traçabilité"],
       stats: [
         { label: t('projects_page.stats_labels.users'), value: "10+" },
         { label: t('projects_page.stats_labels.tracked_items'), value: "10k+" },
@@ -294,9 +294,19 @@ function Projects() {
           desc: t('projects_page.projects.soaharilandy.features.qrcode.desc')
         },
         {
+          icon: "map",
+          title: t('projects_page.projects.soaharilandy.features.traceability.title'),
+          desc: t('projects_page.projects.soaharilandy.features.traceability.desc')
+        },
+        {
           icon: "chart",
           title: t('projects_page.projects.soaharilandy.features.stats.title'),
           desc: t('projects_page.projects.soaharilandy.features.stats.desc')
+        },
+        {
+          icon: "sparkles",
+          title: t('projects_page.projects.soaharilandy.features.certification.title'),
+          desc: t('projects_page.projects.soaharilandy.features.certification.desc')
         },
         {
           icon: "lightning",

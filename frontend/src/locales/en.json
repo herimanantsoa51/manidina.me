@@ -392,6 +392,45 @@
           "tnr": "Ivato International Airport - Tananarive in the simulator",
           "jfk": "JFK under development"
         }
+      },
+      "soaharilandy": {
+        "name": "Soaharilandy",
+        "tagline": "Sales & Orders Management for Artisanal Silk",
+        "description": "Mobile application for managing a Malagasy artisanal silk business. The system centralizes sales, customer order intake and their assignment to weaver artisans. Each product has a unique QR Code for authentication and tracking. The platform also manages deliveries, payment tracking and sales statistics, ensuring complete traceability and efficient business management.",
+        "features": {
+          "multiuser": {
+            "title": "Multi-User Management",
+            "desc": "Distinct roles for administrators, sellers and artisans with adapted permissions"
+          },
+          "qrcode": {
+            "title": "QR Code & Authentication",
+            "desc": "Unique QR code generation per product to guarantee authenticity"
+          },
+          "traceability": {
+            "title": "Orders & Assignment",
+            "desc": "Customer order intake and automatic or manual assignment to artisans"
+          },
+          "stats": {
+            "title": "Statistics & Reports",
+            "desc": "Sales dashboards, order tracking and performance analysis"
+          },
+          "certification": {
+            "title": "Delivery Management",
+            "desc": "Shipment tracking, delivery status and customer notifications"
+          },
+          "sales": {
+            "title": "Integrated Sales Module",
+            "desc": "Sales recording, payment tracking and product catalog management"
+          }
+        },
+        "images": [
+          { "caption": "Home Page" },
+          { "caption": "QR Code Scan" },
+          { "caption": "Product List" },
+          { "caption": "Product Detail" },
+          { "caption": "User Profile" },
+          { "caption": "History" }
+        ]
       }
     }
   },
@@ -434,114 +473,86 @@
     "projects": {
       "express_sale": {
         "name": "Express Sale",
-        "tagline": "Complete Point of Sale Solution",
-        "description": "A unified desktop and web application for managing multiple stores, integrating inventory management, accounting, and human resources.",
+        "tagline": "Complete Clothing Store Management",
+        "description": "Professional all-in-one solution for clothing store management. The system handles quick sales (cash, Mobile Money, mixed), credit sales with payment schedules, and reservations with deposits. FIFO inventory management by variants (size, color, shoe size) includes warehouse locations and attribute-based search for smart recommendations. Automated accounting calculates costs through weighted distribution on supplies, margins and profits per product, with bank reconciliation and account tracking. Management tools include expense forecasting, daily cash counting, best-seller rankings, and decision-making dashboards.",
         "features": {
           "pos": {
-            "title": "Point of Sale",
-            "desc": "Optimized checkout interface for speed"
+            "title": "Multi-Mode Sales",
+            "desc": "Quick sales, credit sales with payment schedules, reservations with deposits and configurable deadlines"
           },
           "fifo": {
-            "title": "FIFO Management",
-            "desc": "Precise cost and margin calculation"
+            "title": "FIFO Stock & Variants",
+            "desc": "Management by attributes (size, color, shoe size), warehouse locations and smart search"
           },
           "accounting": {
-            "title": "Accounting",
-            "desc": "Automated balance sheet and income statement"
+            "title": "Advanced Accounting",
+            "desc": "Weighted cost distribution, automatic margin calculation, bank reconciliation"
           },
           "multicurrency": {
-            "title": "Multi-currency",
-            "desc": "Seamless Ariary/Euro management"
+            "title": "Multi-currency & Banking",
+            "desc": "Yuan/Ariary conversion, bank account management and multi-account treasury"
           },
           "reservations": {
-            "title": "Reservations",
-            "desc": "Layaway and deposit module"
+            "title": "Forecasting & Cash",
+            "desc": "Expense forecasting, daily cash counting and variance control"
           },
           "stats": {
-            "title": "Statistics",
-            "desc": "Decision-making dashboards"
+            "title": "Analytics & Recommendations",
+            "desc": "Best-seller rankings, attribute-based search and decision-making dashboards"
           }
         },
         "images": [
-          {
-            "caption": "Main Dashboard"
-          },
-          {
-            "caption": "Sales Interface (POS)"
-          },
-          {
-            "caption": "Item Management"
-          },
-          {
-            "caption": "Sales History"
-          },
-          {
-            "caption": "Inventory Management"
-          },
-          {
-            "caption": "Financial Reports"
-          },
-          {
-            "caption": "System Configuration"
-          },
-          {
-            "caption": "User Management"
-          },
-          {
-            "caption": "Invoicing"
-          },
-          {
-            "caption": "Receipt"
-          },
-          {
-            "caption": "Sales Analysis"
-          },
-          {
-            "caption": "Overview"
-          }
+          { "caption": "Main Dashboard" },
+          { "caption": "Sales Interface (POS)" },
+          { "caption": "Item Management" },
+          { "caption": "Sales History" },
+          { "caption": "Inventory Management" },
+          { "caption": "Financial Reports" },
+          { "caption": "System Configuration" },
+          { "caption": "User Management" },
+          { "caption": "Invoicing" },
+          { "caption": "Receipt" },
+          { "caption": "Sales Analysis" },
+          { "caption": "Overview" }
         ]
       },
       "soaharilandy": {
         "name": "Soaharilandy",
-        "tagline": "Silk Traceability and Authentication",
-        "description": "Mobile application allowing tracking of the silk product lifecycle, from production to sale, ensuring authenticity and quality.",
+        "tagline": "Sales & Orders Management for Artisanal Silk",
+        "description": "Mobile application for managing a Malagasy artisanal silk business. The system centralizes sales, customer order intake and their assignment to weaver artisans. Each product has a unique QR Code for authentication and tracking. The platform also manages deliveries, payment tracking and sales statistics, ensuring complete traceability and efficient business management.",
         "features": {
           "multiuser": {
-            "title": "Multi-user",
-            "desc": "Role and permission management"
+            "title": "Multi-User Management",
+            "desc": "Distinct roles for administrators, sellers and artisans with adapted permissions"
           },
           "qrcode": {
-            "title": "QR Code",
-            "desc": "Generation and scanning for traceability"
+            "title": "QR Code & Authentication",
+            "desc": "Unique QR code generation per product to guarantee authenticity"
+          },
+          "traceability": {
+            "title": "Orders & Assignment",
+            "desc": "Customer order intake and automatic or manual assignment to artisans"
           },
           "stats": {
-            "title": "Statistics",
-            "desc": "Real-time production tracking"
+            "title": "Statistics & Reports",
+            "desc": "Sales dashboards, order tracking and performance analysis"
+          },
+          "certification": {
+            "title": "Delivery Management",
+            "desc": "Shipment tracking, delivery status and customer notifications"
           },
           "sales": {
-            "title": "Sales",
-            "desc": "Integrated commercialization module"
+            "title": "Integrated Sales Module",
+            "desc": "Sales recording, payment tracking and product catalog management"
           }
         },
         "images": [
-          {
-            "caption": "Home Page"
-          },
-          {
-            "caption": "QR Code Scan"
-          },
-          {
-            "caption": "Product List"
-          },
-          {
-            "caption": "Product Detail"
-          },
-          {
-            "caption": "User Profile"
-          },
-          {
-            "caption": "History"
-          }
+          { "caption": "Home Page" },
+          { "caption": "QR Code Scan" },
+          { "caption": "Product List" },
+          { "caption": "Product Detail" },
+          { "caption": "User Profile" },
+          { "caption": "History" }
         ]
       }
     }

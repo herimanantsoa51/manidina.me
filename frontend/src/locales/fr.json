@@ -317,32 +317,32 @@
     "projects": {
       "express_sale": {
         "name": "Express Sale",
-        "tagline": "Solution complète de gestion de point de vente",
-        "description": "Une application desktop et web unifiée pour la gestion de plusieurs boutiques, intégrant la gestion de stock, la comptabilité et les ressources humaines.",
+        "tagline": "Gestion complète de boutique prêt-à-porter",
+        "description": "Solution professionnelle tout-en-un pour la gestion d'une boutique de prêt-à-porter. Le système gère les ventes rapides (cash, Mobile Money, mixte), les ventes à crédit avec échéancier et les réservations avec acomptes. La gestion de stock FIFO par variantes (taille, couleur, pointure) inclut les emplacements entrepôt et la recherche par attributs pour des recommandations intelligentes. La comptabilité automatisée calcule les coûts par répartition pondérée sur les approvisionnements, les marges et bénéfices par produit, avec rapprochement bancaire et suivi des comptes. Les outils de pilotage incluent les dépenses prévisionnelles, le comptage de caisse quotidien, le classement des meilleures ventes et des tableaux de bord décisionnels.",
         "features": {
           "pos": {
-            "title": "Point de Vente",
-            "desc": "Interface caisse optimisée pour la rapidité"
+            "title": "Ventes Multi-Modes",
+            "desc": "Vente rapide, vente à crédit avec échéancier, réservations avec acomptes et délais configurables"
           },
           "fifo": {
-            "title": "Gestion FIFO",
-            "desc": "Calcul précis des coûts et marges"
+            "title": "Stock FIFO & Variantes",
+            "desc": "Gestion par attributs (taille, couleur, pointure), emplacements entrepôt et recherche intelligente"
           },
           "accounting": {
-            "title": "Comptabilité",
-            "desc": "Bilan, compte de résultat automatisés"
+            "title": "Comptabilité Avancée",
+            "desc": "Répartition pondérée des coûts, calcul automatique des marges, rapprochement bancaire"
           },
           "multicurrency": {
-            "title": "Multi-devises",
-            "desc": "Gestion Ariary/Euro fluide"
+            "title": "Multi-devises & Banque",
+            "desc": "Conversion Euros, Dollar, Baht, Yuan/Ariary, gestion des comptes bancaires et trésorerie multi-comptes"
           },
           "reservations": {
-            "title": "Réservations",
-            "desc": "Module de mise de côté et accomptes"
+            "title": "Prévisionnel & Caisse",
+            "desc": "Dépenses prévisionnelles, comptage de caisse quotidien et contrôle des écarts"
           },
           "stats": {
-            "title": "Statistiques",
-            "desc": "Tableaux de bord décisionnels"
+            "title": "Analytics & Recommandations",
+            "desc": "Classement meilleures ventes, recherche par attributs et tableaux de bord décisionnels"
           }
         },
         "images": [
@@ -362,24 +362,32 @@
       },
       "soaharilandy": {
         "name": "Soaharilandy",
-        "tagline": "Traçabilité et authentification de la soie",
-        "description": "Application mobile permettant de suivre le cycle de vie des produits en soie, de la production à la vente, garantissant l'authenticité et la qualité.",
+        "tagline": "Gestion de ventes et commandes de soie artisanale",
+        "description": "Application mobile pour la gestion d'une entreprise de soie artisanale malgache. Le système centralise les ventes, la prise de commandes clients et leur attribution aux artisans tisserands. Chaque produit dispose d'un QR Code unique pour l'authentification et le suivi. La plateforme gère également les livraisons, le suivi des paiements et les statistiques de vente, garantissant une traçabilité complète et une gestion efficace de l'activité.",
         "features": {
           "multiuser": {
-            "title": "Multi-utilisateur",
-            "desc": "Gestion des rôles et permissions"
+            "title": "Gestion Multi-Utilisateurs",
+            "desc": "Rôles distincts pour administrateurs, vendeurs et artisans avec permissions adaptées"
           },
           "qrcode": {
-            "title": "QR Code",
-            "desc": "Génération et scan pour traçabilité"
+            "title": "QR Code & Authentification",
+            "desc": "Génération de QR codes uniques par produit pour garantir l'authenticité"
+          },
+          "traceability": {
+            "title": "Commandes & Attribution",
+            "desc": "Prise de commandes clients et attribution automatique ou manuelle aux artisans"
           },
           "stats": {
-            "title": "Statistiques",
-            "desc": "Suivi de production en temps réel"
+            "title": "Statistiques & Rapports",
+            "desc": "Tableaux de bord des ventes, suivi des commandes et analyses de performance"
+          },
+          "certification": {
+            "title": "Gestion des Livraisons",
+            "desc": "Suivi des expéditions, statuts de livraison et notifications clients"
           },
           "sales": {
-            "title": "Vente",
-            "desc": "Module de commercialisation intégré"
+            "title": "Module Vente Intégré",
+            "desc": "Enregistrement des ventes, suivi des paiements et gestion du catalogue produits"
           }
         },
         "images": [
