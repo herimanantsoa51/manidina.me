@@ -6,8 +6,3 @@ Allow: /
 
 # Sitemap
 Sitemap: https://manidina.me/sitemap.xml
-
-# Bloquer les fichiers non nécessaires
-Disallow: /assets/
-Disallow: /*.js$
-Disallow: /*.css$

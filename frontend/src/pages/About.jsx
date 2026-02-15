@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Icon from '../components/Icon';
+import SEO from '../components/SEO';
 import './About.css';
 
 /**
@@ -450,6 +451,12 @@ function About() {
 
   return (
     <div className="about-page">
+      <SEO 
+        title="Portfolio | Christian HERIMANANTSOA - Développeur Full Stack & IA"
+        description="Portfolio de Christian HERIMANANTSOA : compétences en React, Python, IA, automatisation. Projets déployés en production à Madagascar."
+        path="/portfolio"
+        image="/images/profile.jpeg"
+      />
       {/* Profile Section */}
       <motion.section 
         className="profile-section"

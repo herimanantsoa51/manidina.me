@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Icon from '../components/Icon';
+import SEO from '../components/SEO';
 import './Projects.css';
 
 /**
@@ -331,6 +332,12 @@ function Projects() {
 
   return (
     <div className="projects-page">
+      <SEO 
+        title="Projets | Manidina - Solutions Numériques Déployées"
+        description="Découvrez les projets réalisés par Manidina : Express Sale, Soaharilandy, et d'autres solutions numériques pour entreprises à Madagascar."
+        path="/projets"
+        image="/express_sale_logo.jpg"
+      />
       {/* Hero Section */}
       <motion.section 
         className="projects-hero"

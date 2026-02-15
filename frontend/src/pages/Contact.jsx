@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next'; // Import
 import Icon from '../components/Icon';
+import SEO from '../components/SEO';
 import './Contact.css';
 
 const Contact = () => {
@@ -80,6 +81,11 @@ const Contact = () => {
 
   return (
     <div className="contact-page">
+      <SEO 
+        title="Contact | Manidina - Christian HERIMANANTSOA"
+        description="Contactez Manidina pour vos projets numériques. Email : contact@manidina.me. Basé à Antananarivo, Madagascar."
+        path="/contact"
+      />
       <div className="contact-container container">
         <motion.div 
           className="contact-header"
