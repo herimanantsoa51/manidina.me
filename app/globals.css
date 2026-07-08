@@ -1,9 +1,13 @@
+/* Google Fonts: Inter (body) + Space Grotesk (headings) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
 /* DESIGN SYSTEM MANIDINA — ported from Vite to Next.js */
 :root {
     --color-primary: #7FFF00;
     --color-primary-dark: #5FD700;
     --color-primary-light: #9FFF40;
-    --font-primary: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-heading: 'Space Grotesk', 'Inter', sans-serif;
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
@@ -61,7 +65,7 @@
     transition: background-color var(--transition-base), color var(--transition-base);
   }
 
-  h1, h2, h3, h4, h5, h6 { font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; }
+  h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); font-weight: 600; line-height: 1.2; letter-spacing: -0.02em; }
   h1 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 700; }
   h2 { font-size: clamp(2rem, 4vw, 3rem); }
   h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
