@@ -332,19 +332,6 @@ export default function ProjectsPage() {
         textAlign: 'center',
         overflow: 'hidden',
       }}>
-        {/* Background gradient orbs */}
-        <div style={{
-          position: 'absolute', top: '20%', left: '10%',
-          width: '400px', height: '400px',
-          background: 'radial-gradient(circle, rgba(127,255,0,0.08) 0%, transparent 70%)',
-          filter: 'blur(80px)', pointerEvents: 'none',
-        }} />
-        <div style={{
-          position: 'absolute', top: '10%', right: '10%',
-          width: '300px', height: '300px',
-          background: 'radial-gradient(circle, rgba(96,165,250,0.06) 0%, transparent 70%)',
-          filter: 'blur(80px)', pointerEvents: 'none',
-        }} />
 
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <motion.div
