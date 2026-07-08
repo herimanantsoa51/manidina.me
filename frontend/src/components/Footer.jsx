@@ -39,10 +39,10 @@ const Footer = () => {
         
         <div className="footer__bottom">
           <nav className="footer__nav" aria-label="Navigation secondaire">
-            {/* <a href="/mentions-legales" className="footer__nav-link">{t('footer.legal')}</a>
+            <a href="/mentions-legales" className="footer__nav-link">{t('footer.legal')}</a>
             <span className="footer__separator">•</span>
             <a href="/confidentialite" className="footer__nav-link">{t('footer.privacy')}</a>
-            <span className="footer__separator">•</span> */}
+            <span className="footer__separator">•</span>
             <a href="/contact" className="footer__nav-link">{t('footer.contact')}</a>
           </nav>
         </div>

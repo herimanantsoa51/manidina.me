@@ -285,6 +285,52 @@
     "privacy": "Confidentialité",
     "contact": "Contact"
   },
+  "legal": {
+    "title": "Mentions Légales",
+    "last_updated": "Dernière mise à jour : juillet 2026",
+    "editor": {
+      "title": "Éditeur du site",
+      "name": "HERIMANANTSOA Manitriniaina Christian",
+      "contact": "Email : contact@manidina.me"
+    },
+    "hosting": {
+      "title": "Hébergement",
+      "desc": "Ce site est hébergé par GitHub, Inc. via GitHub Pages.",
+      "platform": "Plateforme"
+    },
+    "ip": {
+      "title": "Propriété Intellectuelle",
+      "desc": "L'ensemble des contenus présentés sur ce site (textes, images, logos, vidéos) est la propriété de Manidina sauf mention contraire. Toute reproduction ou utilisation sans autorisation est interdite."
+    },
+    "liability": {
+      "title": "Limitation de Responsabilité",
+      "desc": "Manidina s'efforce d'assurer l'exactitude des informations sur ce site mais ne saurait être tenu responsable des erreurs ou omissions. Les liens externes ne relèvent pas de notre responsabilité."
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "last_updated": "Dernière mise à jour : juillet 2026",
+    "data": {
+      "title": "Données Collectées",
+      "desc": "Nous collectons uniquement les données que vous nous envoyez via le formulaire de contact (nom, email, message). Ces données ne sont utilisées que pour vous répondre et ne sont jamais revendues à des tiers."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "desc": "Ce site n'utilise pas de cookies de traçage. Un cookie de thème (clair/sombre) est stocké localement pour votre confort de navigation."
+    },
+    "third_party": {
+      "title": "Services Tiers",
+      "desc": "Les emails envoyés via le formulaire de contact transitent par un workflow n8n auto-hébergé. Aucune donnée n'est transmise à des services tiers non essentiels."
+    },
+    "rights": {
+      "title": "Vos Droits",
+      "desc": "Conformément au RGPD, vous pouvez demander l'accès, la rectification ou la suppression de vos données personnelles en nous contactant à contact@manidina.me."
+    },
+    "contact": {
+      "title": "Contact",
+      "desc": "Pour toute question concernant ces mentions, écrivez-nous à contact@manidina.me."
+    }
+  },
   "projects_page": {
     "hero": {
       "title_prefix": "Nos Grosses",

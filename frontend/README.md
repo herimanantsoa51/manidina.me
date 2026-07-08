@@ -1,16 +1,45 @@
-# React + Vite
+# Manidina.me — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site vitrine React 19 + Vite 7 pour **MANIDINA**.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| Technologie | Rôle |
+|---|---|
+| React 19 | UI framework |
+| Vite 7 | Bundler & dev server |
+| React Router 7 | Routing |
+| Framer Motion 12 | Animations |
+| i18next | Internationalisation FR/EN |
+| GitHub Pages | Hébergement + déploiement |
 
-## React Compiler
+## Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Route | Contenu |
+|---|---|
+| `/` | Accueil (Hero, Services, About, Projets) |
+| `/projets` | Projets détaillés (Express Sale, Soaharilandy) |
+| `/portfolio` | Portfolio / Admin (compétences + tous les projets) |
+| `/contact` | Formulaire de contact + coordonnées |
+| `/mentions-legales` | Mentions légales |
+| `/confidentialite` | Politique de confidentialité |
 
-## Expanding the ESLint configuration
+## Développement
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev      # Dev server sur http://localhost:5173
+npm run build    # Build production + prerender SEO
+npm run preview  # Preview du build
+```
+
+## Performance
+
+- Code-splitting via `React.lazy()` sur chaque page
+- Chunks vendors séparés : React, Framer Motion, i18next
+- Lazy loading des images dans les carrousels
+- Pré-rendu SEO statique pour chaque route
+
+## Déploiement
+
+Push sur `main` → GitHub Actions build + déploiement sur manidina.me.

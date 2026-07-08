@@ -2,7 +2,7 @@
   "header": {
     "home": "Home",
     "projects": "Projects",
-    "about": "About Admin",
+    "about": "Portfolio",
     "contact": "Contact"
   },
   "hero": {
@@ -440,6 +440,52 @@
     "legal": "Legal Notice",
     "privacy": "Privacy Policy",
     "contact": "Contact"
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "last_updated": "Last updated: July 2026",
+    "editor": {
+      "title": "Site Editor",
+      "name": "HERIMANANTSOA Manitriniaina Christian",
+      "contact": "Email: contact@manidina.me"
+    },
+    "hosting": {
+      "title": "Hosting",
+      "desc": "This site is hosted by GitHub, Inc. via GitHub Pages.",
+      "platform": "Platform"
+    },
+    "ip": {
+      "title": "Intellectual Property",
+      "desc": "All content presented on this site (texts, images, logos, videos) is the property of Manidina unless otherwise stated. Any reproduction or use without permission is prohibited."
+    },
+    "liability": {
+      "title": "Limitation of Liability",
+      "desc": "Manidina strives to ensure the accuracy of information on this site but cannot be held responsible for errors or omissions. External links are beyond our responsibility."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated: July 2026",
+    "data": {
+      "title": "Data Collected",
+      "desc": "We only collect data you send via the contact form (name, email, message). This data is used solely to respond to you and is never sold to third parties."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "desc": "This site does not use tracking cookies. A theme cookie (light/dark) is stored locally for your browsing comfort."
+    },
+    "third_party": {
+      "title": "Third-Party Services",
+      "desc": "Emails sent via the contact form go through a self-hosted n8n workflow. No data is transmitted to non-essential third-party services."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "desc": "Under GDPR, you can request access, rectification, or deletion of your personal data by contacting us at contact@manidina.me."
+    },
+    "contact": {
+      "title": "Contact",
+      "desc": "For any questions regarding these notices, write to us at contact@manidina.me."
+    }
   },
   "projects_page": {
     "hero": {

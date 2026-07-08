@@ -1,13 +1,18 @@
 import React, { useRef, useState } from 'react';
-import emailjs from 'emailjs-com';
 import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next'; // Import
+import { useTranslation } from 'react-i18next';
 import Icon from '../components/Icon';
 import SEO from '../components/SEO';
 import './Contact.css';
 
+/**
+ * URL du webhook n8n pour le formulaire de contact.
+ * Configurable via variable d'environnement VITE_N8N_WEBHOOK_URL
+ */
+const N8N_WEBHOOK_URL = import.meta.env.VITE_N8N_WEBHOOK_URL || '';
+
 const Contact = () => {
-  const { t } = useTranslation(); // Hook
+  const { t } = useTranslation();
   const form = useRef();
   const [status, setStatus] = useState(''); // 'sending', 'success', 'error'
 
@@ -16,67 +21,50 @@ const Contact = () => {
     setStatus('sending');
 
     const formData = new FormData(e.target);
-    const userName = formData.get('user_name');
-    const userEmail = formData.get('user_email');
-    const userMessage = formData.get('message');
-
-    // Données pour le template admin (email que VOUS recevez)
-    const adminData = {
-      name: userName,           // {{name}} dans le template admin
-      user_email: userEmail,    // {{user_email}} dans le template admin
-      message: userMessage,     // {{message}} dans le template admin
+    const data = {
+      name: formData.get('user_name'),
+      email: formData.get('user_email'),
+      message: formData.get('message'),
       time: new Date().toLocaleString('fr-FR', {
         dateStyle: 'full',
         timeStyle: 'short'
-      })
+      }),
+      source: 'manidina.me'
     };
 
-    // Données pour le template auto-reply (email que L'UTILISATEUR reçoit)
-    const autoReplyData = {
-      from_name: userName,      // {{from_name}} dans le template auto-reply
-      to_email: userEmail,      // Email de destination
-      title: userMessage,       // {{title}} - le message résumé
-      message: userMessage      // {{message}} - le message complet
-    };
-
-    const SERVICE_ID = 'service_crkl0lk';
-    const TEMPLATE_ADMIN = 'template_received';
-    const TEMPLATE_AUTO_REPLY = 'template_reply';
-    const PUBLIC_KEY = 'ALDptbdckCv1GcLKe';
+    if (!N8N_WEBHOOK_URL) {
+      console.warn('⚠️ VITE_N8N_WEBHOOK_URL non configuré. Le formulaire utilise la simulation.');
+      await simulateSend(data);
+      return;
+    }
 
     try {
-      // 1. Mail vers VOUS (admin)
-      await emailjs.send(
-        SERVICE_ID,
-        TEMPLATE_ADMIN,
-        adminData,
-        PUBLIC_KEY
-      );
+      const response = await fetch(N8N_WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
 
-      // 2. Auto-reply vers le visiteur
-      // IMPORTANT: Désactivez l'auto-reply dans les paramètres EmailJS
-      // pour éviter le double envoi !
-      await emailjs.send(
-        SERVICE_ID,
-        TEMPLATE_AUTO_REPLY,
-        {
-          ...autoReplyData,
-          to_email: userEmail  // EmailJS utilise ce champ pour envoyer
-        },
-        PUBLIC_KEY
-      );
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
-      console.log("Emails sent successfully");
       setStatus('success');
       form.current.reset();
-      
-      // Reset status after a longer delay to let user read the message
       setTimeout(() => setStatus(''), 8000);
-      
     } catch (error) {
-      console.error("Failed to send email:", error);
+      console.error('❌ Erreur envoi webhook:', error);
       setStatus('error');
     }
+  };
+
+  /**
+   * Mode simulation quand le webhook n'est pas configuré
+   */
+  const simulateSend = async (data) => {
+    console.log('📨 Simulation d\'envoi :', data);
+    await new Promise(r => setTimeout(r, 1000));
+    setStatus('success');
+    form.current.reset();
+    setTimeout(() => setStatus(''), 8000);
   };
 
   return (

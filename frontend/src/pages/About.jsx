@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import Icon from '../components/Icon';
 import SEO from '../components/SEO';
+import JsonLd from '../components/JsonLd';
 import './About.css';
 
 /**
@@ -449,6 +450,33 @@ const PROJECTS_CONFIG = [
 function About() {
   const { t } = useTranslation();
 
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "https://manidina.me/portfolio/#person",
+    "name": "HERIMANANTSOA Manitriniaina Christian",
+    "givenName": "Christian",
+    "familyName": "HERIMANANTSOA",
+    "jobTitle": "Analyste en Systèmes d'Information & Développeur Full Stack",
+    "url": "https://manidina.me/portfolio",
+    "image": "https://manidina.me/images/profile.jpeg",
+    "email": "christian@manidina.me",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Antananarivo",
+      "addressCountry": "MG"
+    },
+    "knowsAbout": [
+      "React", "Python", "Intelligence Artificielle", "Computer Vision",
+      "Automatisation", "Développement Web", "DevOps"
+    ],
+    "alumniOf": "Université d'Antananarivo",
+    "sameAs": [
+      "https://facebook.com/manidina.plus.plus",
+      "https://www.linkedin.com/in/christian-herimanantsoa"
+    ]
+  };
+
   return (
     <div className="about-page">
       <SEO 
@@ -457,6 +485,7 @@ function About() {
         path="/portfolio"
         image="/images/profile.jpeg"
       />
+      <JsonLd data={personSchema} />
       {/* Profile Section */}
       <motion.section 
         className="profile-section"

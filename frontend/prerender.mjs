@@ -30,6 +30,18 @@ const ROUTES = [
     description: 'Contactez Manidina pour vos projets numériques. Email : contact@manidina.me. Basé à Antananarivo, Madagascar.',
     image: 'https://manidina.me/logo.png',
   },
+  {
+    path: '/mentions-legales',
+    title: 'Mentions Légales | Manidina',
+    description: 'Mentions légales du site Manidina.me - Éditeur, hébergement, propriété intellectuelle.',
+    image: 'https://manidina.me/logo.png',
+  },
+  {
+    path: '/confidentialite',
+    title: 'Confidentialité | Manidina',
+    description: 'Politique de confidentialité de Manidina.me — Données personnelles, cookies, vos droits.',
+    image: 'https://manidina.me/logo.png',
+  },
 ];
 
 function generateHTML(route) {
