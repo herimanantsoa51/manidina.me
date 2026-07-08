@@ -1,43 +1,35 @@
-# manidina.me
+# manidina.me — Next.js
 
-Site vitrine de **MANIDINA** — solutions numériques, IA et automatisation pour entreprises à Madagascar.
+Migration test de manidina.me vers **Next.js** (App Router, static export).
 
 **Créé et géré par** [Christian HERIMANANTSOA](https://manidina.me/portfolio)
 
 ## Stack
 
-- **Frontend** : React 19 + Vite 7 + Framer Motion
-- **i18n** : Français / Anglais (i18next)
-- **Routing** : React Router 7
-- **Contact** : Webhook n8n
-- **Déploiement** : GitHub Pages (via Actions)
+- **Framework** : Next.js 16 (App Router)
+- **Animation** : Framer Motion
+- **i18n** : i18next (FR/EN)
+- **Déploiement** : GitHub Pages (static export)
 
-## Structure
+## Routes
 
-```
-frontend/
-├── src/
-│   ├── components/    # Header, Footer, Hero, Services, etc.
-│   ├── pages/         # Home, Projects, Portfolio, Contact, Legal
-│   ├── locales/       # en.json, fr.json
-│   └── styles/        # Design system global
-├── public/images/     # Captures d'écran des projets
-└── dist/              # Build de production
-```
+| Route | Page |
+|---|---|
+| `/` | Accueil |
+| `/projets` | Projets client |
+| `/portfolio` | Portfolio & compétences |
+| `/contact` | Formulaire de contact |
+| `/mentions-legales` | Mentions légales |
+| `/confidentialite` | Politique de confidentialité |
 
-## Développement
+## Dev
 
 ```bash
-cd frontend
 npm install
-npm run dev
+npm run dev     # Dev server
+npm run build   # Static export → out/
 ```
 
-## Build
+## Déploiement
 
-```bash
-cd frontend
-npm run build
-```
-
-Le build génère des pages HTML statiques pré-redues pour le SEO (via prerender.mjs).
+Push sur `nextjs-migration` → GitHub Actions → export statique vers manidina.me.
