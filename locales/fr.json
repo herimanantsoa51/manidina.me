@@ -554,7 +554,226 @@
             "desc": "Messages gérés et notifiés via le panel admin"
           }
         }
+      },
+      "express_sale": {
+        "tagline": "Gestion complète de boutique prêt-à-porter",
+        "description": "Solution professionnelle tout-en-un déployée en production pour une boutique : ventes rapides (cash, mobile money, mixte), ventes à crédit avec échéancier, réservations avec acomptes, stock FIFO par variantes (taille, couleur, pointure), comptabilité automatisée (marges, rapprochement bancaire), multi-devises et tableaux de bord décisionnels.",
+        "stats": {
+          "screens": "Écrans",
+          "modules": "Modules",
+          "transactions": "Type"
+        },
+        "features": {
+          "pos": {
+            "title": "Ventes Multi-Modes",
+            "desc": "Vente rapide, crédit avec échéancier et réservations avec acomptes"
+          },
+          "fifo": {
+            "title": "Stock FIFO & Variantes",
+            "desc": "Gestion par attributs, emplacements entrepôt et recherche intelligente"
+          },
+          "accounting": {
+            "title": "Comptabilité Avancée",
+            "desc": "Répartition pondérée des coûts, marges automatiques, rapprochement bancaire"
+          },
+          "multicurrency": {
+            "title": "Multi-devises",
+            "desc": "EUR, USD, Baht, Yuan et Ariary avec gestion de trésorerie multi-comptes"
+          }
+        }
+      },
+      "soaharilandy": {
+        "tagline": "Gestion de soie artisanale avec QR Code",
+        "description": "Application mobile en production pour une entreprise de soie artisanale malgache : ventes, commandes clients et attribution aux artisans tisserands. Chaque produit dispose d'un QR Code unique pour l'authentification et la traçabilité. Gestion des livraisons, suivi des paiements et statistiques de vente.",
+        "stats": {
+          "modules": "Modules",
+          "qrcode": "QR Code",
+          "certified": "Traçabilité"
+        },
+        "features": {
+          "multiuser": {
+            "title": "Multi-Utilisateurs",
+            "desc": "Rôles admin, vendeurs et artisans avec permissions adaptées"
+          },
+          "qrcode": {
+            "title": "QR Code & Authentification",
+            "desc": "QR codes uniques par produit pour garantir l'authenticité"
+          },
+          "traceability": {
+            "title": "Commandes & Attribution",
+            "desc": "Attribution des commandes aux artisans et suivi des statuts"
+          },
+          "stats": {
+            "title": "Statistiques & Rapports",
+            "desc": "Tableaux de bord ventes et analyse de performance"
+          }
+        }
+      },
+      "soutenance": {
+        "tagline": "Plateforme multi-plateforme de soutenances",
+        "description": "Système complet de gestion des soutenances de diplôme : planification, jury, notation et suivi des étudiants. Architecture multi-plateforme réelle : backend C# (.NET), frontend web, application mobile Android (Kotlin) et client desktop (QML). Projet académique couvrant tout le cycle de vie d'une soutenance.",
+        "stats": {
+          "platforms": "Plateformes",
+          "backend": "Backend",
+          "status": "Statut"
+        },
+        "features": {
+          "web": {
+            "title": "Frontend Web",
+            "desc": "Interface de planification et suivi des soutenances"
+          },
+          "mobile": {
+            "title": "Mobile Kotlin",
+            "desc": "Application Android pour consultations et notifications"
+          },
+          "desktop": {
+            "title": "Desktop QML",
+            "desc": "Client bureau pour la gestion avancée"
+          },
+          "api": {
+            "title": "Backend C#/.NET",
+            "desc": "API REST centralisant données, jury et notation"
+          }
+        }
+      },
+      "exams": {
+        "tagline": "Gestion d'examens & concours",
+        "description": "Infrastructure complète de gestion d'examens : backend refactoré en Java/Maven, frontend web et application mobile (React Native). Gestion des épreuves, des candidats, de la correction et des résultats. Projet académique réalisé en équipe avec une architecture multi-frontends.",
+        "stats": {
+          "backend": "Backend",
+          "frontend": "Frontend",
+          "mobile": "Mobile"
+        },
+        "features": {
+          "java": {
+            "title": "Backend Java/Maven",
+            "desc": "API structurée avec build Maven et tests"
+          },
+          "mobile": {
+            "title": "Mobile RN",
+            "desc": "Application React Native pour les candidats"
+          },
+          "web": {
+            "title": "Frontend Web",
+            "desc": "Interface d'administration des épreuves et résultats"
+          },
+          "api": {
+            "title": "API REST",
+            "desc": "Endpoints d'épreuves, candidats et corrections"
+          }
+        }
+      },
+      "auth3": {
+        "tagline": "Triple authentification biométrique",
+        "description": "Système d'authentification à trois facteurs combinant reconnaissance faciale (OpenCV), empreinte vocale et empreinte digitale. Pipeline de détection et de vérification biométrique en C++/C#, avec modules complémentaires de face detection. Projet exploratoire en sécurité biométrique.",
+        "stats": {
+          "factors": "Facteurs",
+          "type": "Type",
+          "status": "Statut"
+        },
+        "features": {
+          "facial": {
+            "title": "Reconnaissance Faciale",
+            "desc": "Détection et vérification faciale via OpenCV"
+          },
+          "vocal": {
+            "title": "Empreinte Vocale",
+            "desc": "Analyse de la voix comme second facteur"
+          },
+          "fingerprint": {
+            "title": "Empreinte Digitale",
+            "desc": "Vérification d'empreintes comme troisième facteur"
+          },
+          "fusion": {
+            "title": "Fusion Multi-facteurs",
+            "desc": "Combinaison des trois canaux biométriques"
+          }
+        }
+      },
+      "salles": {
+        "tagline": "Réservation de salles d'enseignement",
+        "description": "Application Laravel (Blade) de réservation de salles pour établissement d'enseignement supérieur : planning des cours, disponibilité en temps réel, conflits d'emploi du temps et administration. Modèle Laravel classique avec migrations, seeders et interface Blade.",
+        "stats": {
+          "type": "Type",
+          "stack": "Stack",
+          "status": "Statut"
+        },
+        "features": {
+          "planning": {
+            "title": "Planning des Salles",
+            "desc": "Vue hebdomadaire des réservations et disponibilités"
+          },
+          "conflicts": {
+            "title": "Détection de Conflits",
+            "desc": "Blocage automatique des créneaux déjà réservés"
+          },
+          "admin": {
+            "title": "Administration",
+            "desc": "Gestion des salles, équipements et plages horaires"
+          },
+          "laravel": {
+            "title": "Laravel Blade",
+            "desc": "Stack Laravel complète avec migrations versionnées"
+          }
+        }
+      },
+      "dqr": {
+        "tagline": "QR Code Dynamique Physique",
+        "description": "Prototype de QR code dynamique à affichage physique : un QR statique imprimé masque le contenu réel qui est révélé par un mécanisme physique contrôlé. Backend C# (.NET) avec firmware C++ embarqué. Projet exploratoire en sécurité physique et IoT.",
+        "stats": {
+          "type": "Type",
+          "backend": "Backend",
+          "firmware": "Firmware"
+        },
+        "features": {
+          "dynamic": {
+            "title": "QR Dynamique",
+            "desc": "Contenu variable révélé par un mécanisme physique"
+          },
+          "backend": {
+            "title": "Backend C#",
+            "desc": "Génération et validation des payloads QR"
+          },
+          "firmware": {
+            "title": "Firmware C++",
+            "desc": "Contrôle embarqué du mécanisme d'affichage"
+          },
+          "iot": {
+            "title": "IoT & Sécurité",
+            "desc": "Combinaison de sécurité physique et numérique"
+          }
+        }
+      },
+      "ainga": {
+        "tagline": "Plateforme de services numériques",
+        "description": "Écosystème d'applications de services : interfaces web et applications de gestion, avec variantes MVP et consolidations successives. Reflet de la montée en compétence sur les architectures TypeScript/React et les backends C#.",
+        "stats": {
+          "apps": "Apps",
+          "type": "Type",
+          "status": "Statut"
+        },
+        "features": {
+          "web": {
+            "title": "Interfaces Web",
+            "desc": "Dashboards et applications de gestion"
+          },
+          "mvp": {
+            "title": "Évolutions MVP",
+            "desc": "Prototypes validés puis consolidés en versions complètes"
+          },
+          "fullstack": {
+            "title": "Full-stack",
+            "desc": "Frontends React/TS et backends C#/Python"
+          }
+        }
       }
+    },
+    "categories": {
+      "production": "En production & clients",
+      "personal": "Projets personnels",
+      "academic": "Projets académiques",
+      "projects": "projets",
+      "project": "projet"
     }
   },
   "footer": {

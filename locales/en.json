@@ -413,55 +413,31 @@
         }
       },
       "soaharilandy": {
-        "name": "Soaharilandy",
-        "tagline": "Sales & Orders Management for Artisanal Silk",
-        "description": "Mobile application for managing a Malagasy artisanal silk business. The system centralizes sales, customer order intake and their assignment to weaver artisans. Each product has a unique QR Code for authentication and tracking. The platform also manages deliveries, payment tracking and sales statistics, ensuring complete traceability and efficient business management.",
+        "tagline": "Artisanal silk management with QR Codes",
+        "description": "Production mobile app for a Malagasy artisanal silk business: sales, customer orders and assignment to weaver artisans. Each product has a unique QR Code for authentication and traceability. Delivery management, payment tracking and sales statistics.",
+        "stats": {
+          "modules": "Modules",
+          "qrcode": "QR Code",
+          "certified": "Traceability"
+        },
         "features": {
           "multiuser": {
-            "title": "Multi-User Management",
-            "desc": "Distinct roles for administrators, sellers and artisans with adapted permissions"
+            "title": "Multi-user",
+            "desc": "Admin, seller and artisan roles with adapted permissions"
           },
           "qrcode": {
             "title": "QR Code & Authentication",
-            "desc": "Unique QR code generation per product to guarantee authenticity"
+            "desc": "Unique QR codes per product to guarantee authenticity"
           },
           "traceability": {
             "title": "Orders & Assignment",
-            "desc": "Customer order intake and automatic or manual assignment to artisans"
+            "desc": "Order assignment to artisans and status tracking"
           },
           "stats": {
-            "title": "Statistics & Reports",
-            "desc": "Sales dashboards, order tracking and performance analysis"
-          },
-          "certification": {
-            "title": "Delivery Management",
-            "desc": "Shipment tracking, delivery status and customer notifications"
-          },
-          "sales": {
-            "title": "Integrated Sales Module",
-            "desc": "Sales recording, payment tracking and product catalog management"
+            "title": "Stats & Reports",
+            "desc": "Sales dashboards and performance analysis"
           }
-        },
-        "images": [
-          {
-            "caption": "Home Page"
-          },
-          {
-            "caption": "QR Code Scan"
-          },
-          {
-            "caption": "Product List"
-          },
-          {
-            "caption": "Product Detail"
-          },
-          {
-            "caption": "User Profile"
-          },
-          {
-            "caption": "History"
-          }
-        ]
+        }
       },
       "taniko": {
         "tagline": "Taniko Madagascar multi-service platform",
@@ -605,7 +581,199 @@
             "desc": "Messages managed and notified via the admin panel"
           }
         }
+      },
+      "express_sale": {
+        "tagline": "Complete clothing store management",
+        "description": "Production-ready all-in-one solution for a clothing store: quick sales (cash, mobile money, mixed), credit sales with schedules, reservations with deposits, FIFO inventory by variants (size, color, shoe size), automated accounting (margins, bank reconciliation), multi-currency and decision dashboards.",
+        "stats": {
+          "screens": "Screens",
+          "modules": "Modules",
+          "transactions": "Type"
+        },
+        "features": {
+          "pos": {
+            "title": "Multi-mode Sales",
+            "desc": "Quick sale, credit with schedule and reservations with deposits"
+          },
+          "fifo": {
+            "title": "FIFO Stock & Variants",
+            "desc": "Attribute-based management, warehouse locations and smart search"
+          },
+          "accounting": {
+            "title": "Advanced Accounting",
+            "desc": "Weighted cost allocation, automatic margins, bank reconciliation"
+          },
+          "multicurrency": {
+            "title": "Multi-currency",
+            "desc": "EUR, USD, Baht, Yuan and Ariary with multi-account treasury"
+          }
+        }
+      },
+      "soutenance": {
+        "tagline": "Cross-platform thesis defense platform",
+        "description": "Complete degree defense management system: scheduling, jury, grading and student tracking. Real multi-platform architecture: C# (.NET) backend, web frontend, Android app (Kotlin) and desktop client (QML). Academic project covering the full defense lifecycle.",
+        "stats": {
+          "platforms": "Platforms",
+          "backend": "Backend",
+          "status": "Status"
+        },
+        "features": {
+          "web": {
+            "title": "Web Frontend",
+            "desc": "Defense scheduling and tracking interface"
+          },
+          "mobile": {
+            "title": "Kotlin Mobile",
+            "desc": "Android app for consultations and notifications"
+          },
+          "desktop": {
+            "title": "QML Desktop",
+            "desc": "Desktop client for advanced management"
+          },
+          "api": {
+            "title": "C#/.NET Backend",
+            "desc": "REST API centralizing data, jury and grading"
+          }
+        }
+      },
+      "exams": {
+        "tagline": "Exam & contest management",
+        "description": "Complete exam management infrastructure: refactored Java/Maven backend, web frontend and mobile app (React Native). Exam papers, candidates, grading and results management. Team academic project with a multi-frontend architecture.",
+        "stats": {
+          "backend": "Backend",
+          "frontend": "Frontend",
+          "mobile": "Mobile"
+        },
+        "features": {
+          "java": {
+            "title": "Java/Maven Backend",
+            "desc": "Structured API with Maven build and tests"
+          },
+          "mobile": {
+            "title": "RN Mobile",
+            "desc": "React Native app for candidates"
+          },
+          "web": {
+            "title": "Web Frontend",
+            "desc": "Exam and results administration interface"
+          },
+          "api": {
+            "title": "REST API",
+            "desc": "Exam, candidate and grading endpoints"
+          }
+        }
+      },
+      "auth3": {
+        "tagline": "Triple biometric authentication",
+        "description": "Three-factor authentication system combining facial recognition (OpenCV), voiceprint and fingerprint. Biometric detection and verification pipeline in C++/C#, with complementary face detection modules. Exploratory project in biometric security.",
+        "stats": {
+          "factors": "Factors",
+          "type": "Type",
+          "status": "Status"
+        },
+        "features": {
+          "facial": {
+            "title": "Facial Recognition",
+            "desc": "Face detection and verification via OpenCV"
+          },
+          "vocal": {
+            "title": "Voiceprint",
+            "desc": "Voice analysis as second factor"
+          },
+          "fingerprint": {
+            "title": "Fingerprint",
+            "desc": "Fingerprint verification as third factor"
+          },
+          "fusion": {
+            "title": "Multi-factor Fusion",
+            "desc": "Combining the three biometric channels"
+          }
+        }
+      },
+      "salles": {
+        "tagline": "Teaching room reservation",
+        "description": "Laravel (Blade) room reservation app for higher education institutions: course scheduling, real-time availability, timetable conflicts and administration. Classic Laravel model with migrations, seeders and Blade interface.",
+        "stats": {
+          "type": "Type",
+          "stack": "Stack",
+          "status": "Status"
+        },
+        "features": {
+          "planning": {
+            "title": "Room Planning",
+            "desc": "Weekly view of reservations and availability"
+          },
+          "conflicts": {
+            "title": "Conflict Detection",
+            "desc": "Automatic blocking of already-booked slots"
+          },
+          "admin": {
+            "title": "Administration",
+            "desc": "Rooms, equipment and time-slot management"
+          },
+          "laravel": {
+            "title": "Laravel Blade",
+            "desc": "Full Laravel stack with versioned migrations"
+          }
+        }
+      },
+      "dqr": {
+        "tagline": "Physical Dynamic QR Code",
+        "description": "Prototype of a dynamic QR code with physical display: a printed static QR hides the real content revealed by a controlled physical mechanism. C# (.NET) backend with embedded C++ firmware. Exploratory project in physical security and IoT.",
+        "stats": {
+          "type": "Type",
+          "backend": "Backend",
+          "firmware": "Firmware"
+        },
+        "features": {
+          "dynamic": {
+            "title": "Dynamic QR",
+            "desc": "Variable content revealed by a physical mechanism"
+          },
+          "backend": {
+            "title": "C# Backend",
+            "desc": "QR payload generation and validation"
+          },
+          "firmware": {
+            "title": "C++ Firmware",
+            "desc": "Embedded control of the display mechanism"
+          },
+          "iot": {
+            "title": "IoT & Security",
+            "desc": "Combining physical and digital security"
+          }
+        }
+      },
+      "ainga": {
+        "tagline": "Digital services platform",
+        "description": "Ecosystem of service applications: web interfaces and management apps, with MVP variants and successive consolidations. Reflects growing expertise in TypeScript/React architectures and C# backends.",
+        "stats": {
+          "apps": "Apps",
+          "type": "Type",
+          "status": "Status"
+        },
+        "features": {
+          "web": {
+            "title": "Web Interfaces",
+            "desc": "Dashboards and management applications"
+          },
+          "mvp": {
+            "title": "MVP Evolution",
+            "desc": "Validated prototypes then consolidated into full versions"
+          },
+          "fullstack": {
+            "title": "Full-stack",
+            "desc": "React/TS frontends and C#/Python backends"
+          }
+        }
       }
+    },
+    "categories": {
+      "production": "In production & clients",
+      "personal": "Personal projects",
+      "academic": "Academic projects",
+      "projects": "projects",
+      "project": "project"
     }
   },
   "footer": {
