@@ -8,12 +8,13 @@
   "hero": {
     "title_main": "Digital solutions",
     "title_accent": "simple and effective",
-    "subtitle": "Manidina transforms your business manual processes into accessible, high-performance digital solutions.",
-    "cta_services": "Discover our services",
-    "cta_projects": "View our projects",
+    "subtitle": "Full-stack developer and automation specialist: I turn your company's manual processes into accessible, high-performing digital solutions — web apps, n8n/Make workflows and AI agents.",
+    "cta_services": "View my projects",
+    "cta_projects": "My portfolio",
     "stats": {
       "projects": "Projects"
-    }
+    },
+    "available": "Available for new projects"
   },
   "services": {
     "title": "What Manidina can build for you",
@@ -55,12 +56,30 @@
   },
   "projects_preview": {
     "title": "Concrete solutions for real needs",
-    "description": "Discover how Manidina has helped businesses automate processes, organize data, and gain efficiency every day.",
+    "description": "Discover how I help businesses automate processes, organize data and gain efficiency every day.",
     "cta": "View all projects",
     "stats": {
       "projects_done": "Projects Completed",
       "happy_clients": "Happy Clients",
       "sectors": "Business Sectors"
+    },
+    "featured": {
+      "automation": {
+        "name": "Automation & Workflows",
+        "desc": "n8n and Make workflows orchestrating scraping, AI validation (YOLO), notifications and third-party API integration."
+      },
+      "appweb": {
+        "name": "Web Apps & POS",
+        "desc": "Complete production-ready management systems: multi-currency POS, FIFO inventory, automated accounting and dashboards."
+      },
+      "aviation": {
+        "name": "Airport Intelligence",
+        "desc": "Aggregation and processing of 89,000+ world airports: interactive mapping, analytics and optimal route computation."
+      },
+      "ia": {
+        "name": "Vision & Artificial Intelligence",
+        "desc": "YOLO object detection, banknote recognition, RAG assistants and AI-guided robotic arm."
+      }
     }
   },
   "contact": {
@@ -424,13 +443,168 @@
           }
         },
         "images": [
-          { "caption": "Home Page" },
-          { "caption": "QR Code Scan" },
-          { "caption": "Product List" },
-          { "caption": "Product Detail" },
-          { "caption": "User Profile" },
-          { "caption": "History" }
+          {
+            "caption": "Home Page"
+          },
+          {
+            "caption": "QR Code Scan"
+          },
+          {
+            "caption": "Product List"
+          },
+          {
+            "caption": "Product Detail"
+          },
+          {
+            "caption": "User Profile"
+          },
+          {
+            "caption": "History"
+          }
         ]
+      },
+      "taniko": {
+        "tagline": "Taniko Madagascar multi-service platform",
+        "description": "Complete digital ecosystem: Laravel backend (API + Sanctum OAuth), Next.js frontends, FastAPI AI agents and a multi-tenant WordPress network. Deployed on Oracle Cloud with Docker and Dokku behind an nginx infrastructure. My role covers backend development, multi-tenant OAuth architecture and AI agent integration.",
+        "stats": {
+          "services": "Services",
+          "sites": "Deployed sites",
+          "status": "Status"
+        },
+        "features": {
+          "oauth": {
+            "title": "Multi-Tenant OAuth",
+            "desc": "Sanctum code flow shared: every domain connects to the same central provider"
+          },
+          "api": {
+            "title": "Laravel API",
+            "desc": "Versioned endpoints /v1/, /v1/admin/ and /api/client/ with key validation"
+          },
+          "ai": {
+            "title": "FastAPI AI Agents",
+            "desc": "AI proxy (OpenAI-compatible) behind the backend, per-container isolation"
+          },
+          "infra": {
+            "title": "Docker Infrastructure",
+            "desc": "Compose + nginx + Dokku on Oracle Cloud ARM, per-app resource limits"
+          },
+          "network": {
+            "title": "Site Network",
+            "desc": "FSE WordPress theme + network plugins for multi-domain presence"
+          },
+          "sanctum": {
+            "title": "Security & OAuth",
+            "desc": "Personal access tokens, per-service API keys, per-domain CORS"
+          }
+        }
+      },
+      "network": {
+        "tagline": "Manidina Network — full-stack app",
+        "description": "Modern full-stack application combining a .NET 8 backend (REST API, EF Core, PostgreSQL) and a Next.js/TypeScript frontend. Clean layered architecture, domain models and tested HTTP endpoints. Personal project showcasing my .NET backend and modern frontend skills.",
+        "stats": {
+          "backend": "Backend",
+          "frontend": "Frontend",
+          "status": "Status"
+        },
+        "features": {
+          "api": {
+            "title": ".NET 8 API",
+            "desc": "REST API with structured controllers, services and repositories"
+          },
+          "database": {
+            "title": "EF Core",
+            "desc": "Entity Framework Core with PostgreSQL and versioned migrations"
+          },
+          "ui": {
+            "title": "Next.js UI",
+            "desc": "Modern React interface with reusable components and SSR"
+          },
+          "architecture": {
+            "title": "Layered architecture",
+            "desc": "Clean domain / application / infrastructure separation"
+          }
+        }
+      },
+      "vahy": {
+        "tagline": "Vahy app — web + mobile",
+        "description": "Cross-platform application: React 19/TypeScript/Vite web frontend, React Native mobile app, and associated backend. Designed for a unified experience across mobile, tablet and desktop with a shared TypeScript codebase and a consistent design system.",
+        "stats": {
+          "platforms": "Platforms",
+          "frontend": "Frontend",
+          "mobile": "Mobile"
+        },
+        "features": {
+          "web": {
+            "title": "React 19 + Vite",
+            "desc": "Modern SPA with component composition and optimized performance"
+          },
+          "mobile": {
+            "title": "React Native",
+            "desc": "Native cross-platform mobile app sharing business logic"
+          },
+          "design": {
+            "title": "Design System",
+            "desc": "Consistent UI components across all platforms"
+          },
+          "typescript": {
+            "title": "Strict TypeScript",
+            "desc": "Full typing of the data model and APIs"
+          }
+        }
+      },
+      "rag": {
+        "tagline": "RAG conversational agent",
+        "description": "Conversational agent for the Malagasy administration based on Retrieval-Augmented Generation (RAG): official document indexing, semantic search and sourced answers. FastAPI backend with embedding pipeline, PostgreSQL vector store and Q&A interface.",
+        "stats": {
+          "type": "Type",
+          "lang": "Language",
+          "status": "Status"
+        },
+        "features": {
+          "index": {
+            "title": "RAG Indexing",
+            "desc": "Chunking, embeddings and vector storage of documents"
+          },
+          "search": {
+            "title": "Semantic search",
+            "desc": "Similarity-based querying over indexed content"
+          },
+          "api": {
+            "title": "FastAPI API",
+            "desc": "Q&A endpoints with source metadata"
+          },
+          "sources": {
+            "title": "Sourced answers",
+            "desc": "Citations of source documents in every answer"
+          }
+        }
+      },
+      "edlr": {
+        "tagline": "EDLR website — Street Children Madagascar",
+        "description": "Website for the Enfants De La Rue Madagascar association: missions, news and contact form. Built with Laravel (Filament admin) for simple content management by the association team, with a sober design and SEO optimization.",
+        "stats": {
+          "type": "Type",
+          "stack": "Stack",
+          "status": "Status"
+        },
+        "features": {
+          "admin": {
+            "title": "Filament Admin",
+            "desc": "Laravel admin interface to manage content without code"
+          },
+          "seo": {
+            "title": "Optimized SEO",
+            "desc": "Careful metadata, sitemap and semantic structure"
+          },
+          "responsive": {
+            "title": "Responsive",
+            "desc": "Mobile-first adaptive design for all devices"
+          },
+          "contact": {
+            "title": "Contact form",
+            "desc": "Messages managed and notified via the admin panel"
+          }
+        }
       }
     }
   },
@@ -548,18 +722,42 @@
           }
         },
         "images": [
-          { "caption": "Main Dashboard" },
-          { "caption": "Sales Interface (POS)" },
-          { "caption": "Item Management" },
-          { "caption": "Sales History" },
-          { "caption": "Inventory Management" },
-          { "caption": "Financial Reports" },
-          { "caption": "System Configuration" },
-          { "caption": "User Management" },
-          { "caption": "Invoicing" },
-          { "caption": "Receipt" },
-          { "caption": "Sales Analysis" },
-          { "caption": "Overview" }
+          {
+            "caption": "Main Dashboard"
+          },
+          {
+            "caption": "Sales Interface (POS)"
+          },
+          {
+            "caption": "Item Management"
+          },
+          {
+            "caption": "Sales History"
+          },
+          {
+            "caption": "Inventory Management"
+          },
+          {
+            "caption": "Financial Reports"
+          },
+          {
+            "caption": "System Configuration"
+          },
+          {
+            "caption": "User Management"
+          },
+          {
+            "caption": "Invoicing"
+          },
+          {
+            "caption": "Receipt"
+          },
+          {
+            "caption": "Sales Analysis"
+          },
+          {
+            "caption": "Overview"
+          }
         ]
       },
       "soaharilandy": {
@@ -593,12 +791,24 @@
           }
         },
         "images": [
-          { "caption": "Home Page" },
-          { "caption": "QR Code Scan" },
-          { "caption": "Product List" },
-          { "caption": "Product Detail" },
-          { "caption": "User Profile" },
-          { "caption": "History" }
+          {
+            "caption": "Home Page"
+          },
+          {
+            "caption": "QR Code Scan"
+          },
+          {
+            "caption": "Product List"
+          },
+          {
+            "caption": "Product Detail"
+          },
+          {
+            "caption": "User Profile"
+          },
+          {
+            "caption": "History"
+          }
         ]
       }
     }

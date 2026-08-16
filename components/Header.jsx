@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import '../components/i18n';
 import ThemeToggle from './ThemeToggle';
 
-export default function Header({ scrolled, mounted, toggleTheme, changeLanguage, theme }) {
+export default function Header({ scrolled, toggleTheme, changeLanguage, theme, lang }) {
   const { t, i18n } = useTranslation();
 
   return (

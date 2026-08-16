@@ -1,26 +1,36 @@
-# manidina.me — Next.js
+# manidina.me — Portfolio & Solutions Digitales
 
-Migration test de manidina.me vers **Next.js** (App Router, static export).
+Portfolio personnel et vitrine de services de **Christian HERIMANANTSOA** — développeur full-stack et spécialiste en automatisation (n8n, agents IA).
 
-**Créé et géré par** [Christian HERIMANANTSOA](https://manidina.me/portfolio)
+**[→ manidina.me](https://manidina.me)**
 
 ## Stack
 
-- **Framework** : Next.js 16 (App Router)
-- **Animation** : Framer Motion
-- **i18n** : i18next (FR/EN)
-- **Déploiement** : GitHub Pages (static export)
+| Technologie | Usage |
+|---|---|
+| **Next.js 16** (App Router, static export) | Framework |
+| **Tailwind CSS 4 / design system custom** | Styles (dark/light, lime accent) |
+| **Framer Motion** | Animations |
+| **i18next** | i18n FR/EN avec détection navigateur |
+| **GitHub Pages + Actions** | Déploiement (CNAME manidina.me) |
 
 ## Routes
 
 | Route | Page |
 |---|---|
-| `/` | Accueil |
-| `/projets` | Projets client |
-| `/portfolio` | Portfolio & compétences |
-| `/contact` | Formulaire de contact |
+| `/` | Accueil — hero, services, projets en vedette |
+| `/portfolio` | Portfolio, compétences, réalisations |
+| `/projets` | Projets client détaillés (carrousels captures) |
+| `/contact` | Formulaire de contact (webhook n8n) |
 | `/mentions-legales` | Mentions légales |
 | `/confidentialite` | Politique de confidentialité |
+
+## SEO
+
+- Metadata complètes (title, description, Open Graph, Twitter, canonical)
+- JSON-LD `schema.org/Person` (nom, localisation, compétences, réseaux)
+- Sitemap XML + robots.txt
+- HTML statique en français par défaut (i18n forcé côté serveur), détection navigateur côté client
 
 ## Dev
 
@@ -32,4 +42,8 @@ npm run build   # Static export → out/
 
 ## Déploiement
 
-Push sur `nextjs-migration` → GitHub Actions → export statique vers manidina.me.
+`git push origin main` → GitHub Actions (`./.github/workflows/deploy.yml`) → build statique → GitHub Pages sur manidina.me.
+
+---
+
+**Créé et géré par** [Christian HERIMANANTSOA](https://manidina.me/portfolio) — [GitHub](https://github.com/herimanantsoa51)

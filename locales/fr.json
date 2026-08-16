@@ -6,11 +6,12 @@
     "contact": "Contact"
   },
   "hero": {
+    "available": "Disponible pour de nouvelles missions",
     "title_main": "Des solutions numériques",
     "title_accent": "simples et efficaces",
-    "subtitle": "Manidina transforme les processus manuels de votre entreprise en solutions digitales accessibles et performantes.",
-    "cta_services": "Découvrir nos services",
-    "cta_projects": "Voir nos projets",
+    "subtitle": "Développeur full-stack et spécialiste en automatisation : je transforme les processus manuels de votre entreprise en solutions digitales accessibles et performantes — applications web, workflows n8n/Make et agents IA.",
+    "cta_services": "Voir mes projets",
+    "cta_projects": "Mon portfolio",
     "stats": {
       "projects": "Projets"
     }
@@ -55,8 +56,26 @@
   },
   "projects_preview": {
     "title": "Des solutions concrètes pour des besoins réels",
-    "description": "Découvrez comment Manidina a aidé des entreprises à automatiser leurs processus, organiser leurs données et gagner en efficacité au quotidien.",
+    "description": "Découvrez comment j'aide les entreprises à automatiser leurs processus, organiser leurs données et gagner en efficacité au quotidien.",
     "cta": "Voir tous les projets",
+    "featured": {
+      "automation": {
+        "name": "Automatisation & Workflows",
+        "desc": "Workflows n8n et Make orchestrant le scraping, la validation IA (YOLO), les notifications et l'intégration d'APIs tierces."
+      },
+      "appweb": {
+        "name": "Applications Web & POS",
+        "desc": "Solutions de gestion complètes en production : POS multi-devises, stock FIFO, comptabilité automatisée et tableaux de bord."
+      },
+      "aviation": {
+        "name": "Intelligence Aéroportuaire",
+        "desc": "Agrégation et exploitation de 89 000+ aéroports mondiaux : cartographie interactive, analytics et calcul de routes optimales."
+      },
+      "ia": {
+        "name": "Vision & Intelligence Artificielle",
+        "desc": "Détection d'objets YOLO, reconnaissance de billets, assistants RAG et bras robotique guidé par IA."
+      }
+    },
     "stats": {
       "projects_done": "Projets réalisés",
       "happy_clients": "Clients satisfaits",
@@ -119,11 +138,11 @@
       "expand": "Agrandir"
     },
     "skills": {
-        "ai": "Intelligence Artificielle",
-        "frameworks": "Frameworks & Bibliothèques",
-        "databases": "Bases de Données",
-        "languages": "Langages de Programmation",
-        "automation": "Automation & DevOps"
+      "ai": "Intelligence Artificielle",
+      "frameworks": "Frameworks & Bibliothèques",
+      "databases": "Bases de Données",
+      "languages": "Langages de Programmation",
+      "automation": "Automation & DevOps"
     },
     "projects_list": {
       "maintsovola": {
@@ -136,12 +155,30 @@
           "communities": "Communautés rurales"
         },
         "features": {
-          "management": { "title": "Gestion Agricole", "desc": "Suivi des cultures, calendrier des récoltes et conseils agronomiques personnalisés" },
-          "social": { "title": "Réseau Communautaire", "desc": "Mise en relation directe entre agriculteurs et investisseurs sans intermédiaire" },
-          "map": { "title": "Géolocalisation des Terres", "desc": "Cartographie interactive des parcelles et suivi visuel de l'avancement des projets" },
-          "finance": { "title": "Transparence Financière", "desc": "Suivi en temps réel des investissements et des rendements prévisionnels" },
-          "funding": { "title": "Financement Rapide", "desc": "Système de levée de fonds simplifié via mobile money et virements bancaires" },
-          "ai": { "title": "IA Agronomique", "desc": "Analyse prédictive des risques climatiques et optimisation des rendements" }
+          "management": {
+            "title": "Gestion Agricole",
+            "desc": "Suivi des cultures, calendrier des récoltes et conseils agronomiques personnalisés"
+          },
+          "social": {
+            "title": "Réseau Communautaire",
+            "desc": "Mise en relation directe entre agriculteurs et investisseurs sans intermédiaire"
+          },
+          "map": {
+            "title": "Géolocalisation des Terres",
+            "desc": "Cartographie interactive des parcelles et suivi visuel de l'avancement des projets"
+          },
+          "finance": {
+            "title": "Transparence Financière",
+            "desc": "Suivi en temps réel des investissements et des rendements prévisionnels"
+          },
+          "funding": {
+            "title": "Financement Rapide",
+            "desc": "Système de levée de fonds simplifié via mobile money et virements bancaires"
+          },
+          "ai": {
+            "title": "IA Agronomique",
+            "desc": "Analyse prédictive des risques climatiques et optimisation des rendements"
+          }
         }
       },
       "trashlink": {
@@ -154,11 +191,26 @@
           "classes": "Classes détectées"
         },
         "features": {
-          "route": { "title": "Itinéraire Optimisé", "desc": "Calcul du chemin le plus court pour la collecte, réduisant les coûts logistiques" },
-          "cost": { "title": "Estimation des Coûts", "desc": "Évaluation instantanée de la valeur de rachat des déchets recyclables" },
-          "detection": { "title": "Détection IA (YOLO)", "desc": "Reconnaissance automatique des classes de déchets par vision par ordinateur" },
-          "assistant": { "title": "Assistant Expert RAG", "desc": "Assistant intelligent intégré pour guider les experts en recyclage" },
-          "biogas": { "title": "Valorisation Biogaz", "desc": "Mise en relation directe avec les producteurs d'énergie renouvelable" }
+          "route": {
+            "title": "Itinéraire Optimisé",
+            "desc": "Calcul du chemin le plus court pour la collecte, réduisant les coûts logistiques"
+          },
+          "cost": {
+            "title": "Estimation des Coûts",
+            "desc": "Évaluation instantanée de la valeur de rachat des déchets recyclables"
+          },
+          "detection": {
+            "title": "Détection IA (YOLO)",
+            "desc": "Reconnaissance automatique des classes de déchets par vision par ordinateur"
+          },
+          "assistant": {
+            "title": "Assistant Expert RAG",
+            "desc": "Assistant intelligent intégré pour guider les experts en recyclage"
+          },
+          "biogas": {
+            "title": "Valorisation Biogaz",
+            "desc": "Mise en relation directe avec les producteurs d'énergie renouvelable"
+          }
         }
       },
       "varotra": {
@@ -171,16 +223,34 @@
           "recognition": "Reconnaissance billets"
         },
         "features": {
-          "vision": { "title": "Computer Vision YOLO", "desc": "Détection en temps réel des produits avec localisation précise des coordonnées pour guidage robotique" },
-          "robot": { "title": "Bras Robotique Intelligent", "desc": "Système mécanique piloté par ESP32 capable de saisir et déplacer les articles commandés avec précision" },
-          "platform": { "title": "Commande Multi-Plateforme", "desc": "Application web PHP/MySQL accessible depuis téléphone, tablette ou ordinateur pour passer commande" },
-          "offline": { "title": "Système Hors-Ligne", "desc": "Commande vocale via Asterisk avec notification SMS pour zones sans connexion Internet" },
-          "payment": { "title": "Paiement Automatisé", "desc": "Reconnaissance des billets Ariary par YOLO réentraîné avec rendu de monnaie automatique via Raspberry Pi" },
-          "monitoring": { "title": "Supervision Temps Réel", "desc": "Monitoring vidéo multi-caméras et coordination centralisée des opérations par serveur IA" }
+          "vision": {
+            "title": "Computer Vision YOLO",
+            "desc": "Détection en temps réel des produits avec localisation précise des coordonnées pour guidage robotique"
+          },
+          "robot": {
+            "title": "Bras Robotique Intelligent",
+            "desc": "Système mécanique piloté par ESP32 capable de saisir et déplacer les articles commandés avec précision"
+          },
+          "platform": {
+            "title": "Commande Multi-Plateforme",
+            "desc": "Application web PHP/MySQL accessible depuis téléphone, tablette ou ordinateur pour passer commande"
+          },
+          "offline": {
+            "title": "Système Hors-Ligne",
+            "desc": "Commande vocale via Asterisk avec notification SMS pour zones sans connexion Internet"
+          },
+          "payment": {
+            "title": "Paiement Automatisé",
+            "desc": "Reconnaissance des billets Ariary par YOLO réentraîné avec rendu de monnaie automatique via Raspberry Pi"
+          },
+          "monitoring": {
+            "title": "Supervision Temps Réel",
+            "desc": "Monitoring vidéo multi-caméras et coordination centralisée des opérations par serveur IA"
+          }
         },
         "images": {
-            "control": "Interface de controle admin et détection des produits par computer vision",
-            "money": "Controle de détection du model YOLO pour la reconnaissance des billets Ariary malgaches"
+          "control": "Interface de controle admin et détection des produits par computer vision",
+          "money": "Controle de détection du model YOLO pour la reconnaissance des billets Ariary malgaches"
         }
       },
       "manidina": {
@@ -193,23 +263,41 @@
           "countries": "Pays couverts"
         },
         "features": {
-            "map": { "title": "Cartographie Interactive", "desc": "Visualisation mondiale avec clustering intelligent, filtrage multi-critères et affichage des routes aériennes" },
-            "data": { "title": "Agrégation de Données", "desc": "Collecte et structuration de données aéroportuaires complètes : pistes, fréquences ATC, navaids, waypoints" },
-            "analytics": { "title": "Analyses Avancées", "desc": "Statistiques par pays/région, analyses de connectivité, rankings des hubs majeurs et métriques de trafic" },
-            "pathfinding": { "title": "Algorithmes de Pathfinding", "desc": "Calcul de routes optimales entre aéroports inspiré de Dijkstra, avec gestion des contraintes (en développement)" },
-            "cleaning": { "title": "Data Cleaning IA", "desc": "Pipeline Python/Pandas pour nettoyage, normalisation et enrichissement automatique des données sources" },
-            "roadmap": { "title": "Roadmap IA & Temps Réel", "desc": "Futures intégrations : recommandations intelligentes, météo en temps réel, automatisation des calculs pilotes/ATC" }
+          "map": {
+            "title": "Cartographie Interactive",
+            "desc": "Visualisation mondiale avec clustering intelligent, filtrage multi-critères et affichage des routes aériennes"
+          },
+          "data": {
+            "title": "Agrégation de Données",
+            "desc": "Collecte et structuration de données aéroportuaires complètes : pistes, fréquences ATC, navaids, waypoints"
+          },
+          "analytics": {
+            "title": "Analyses Avancées",
+            "desc": "Statistiques par pays/région, analyses de connectivité, rankings des hubs majeurs et métriques de trafic"
+          },
+          "pathfinding": {
+            "title": "Algorithmes de Pathfinding",
+            "desc": "Calcul de routes optimales entre aéroports inspiré de Dijkstra, avec gestion des contraintes (en développement)"
+          },
+          "cleaning": {
+            "title": "Data Cleaning IA",
+            "desc": "Pipeline Python/Pandas pour nettoyage, normalisation et enrichissement automatique des données sources"
+          },
+          "roadmap": {
+            "title": "Roadmap IA & Temps Réel",
+            "desc": "Futures intégrations : recommandations intelligentes, météo en temps réel, automatisation des calculs pilotes/ATC"
+          }
         },
         "images": {
-            "map": "Map interactive des aéroports mondiaux avec clustering et filtres avancés",
-            "details": "Détails d'un aéroport avec pistes, fréquences ATC et navaids",
-            "runway": "Détails d'une piste",
-            "search": "Recherche et analyse avancé d'aéroports",
-            "routes": "Recherche de routes",
-            "navaids": "Navaids ou aides à la navigation aérienne",
-            "path": "Recherche du plus court chemin entre deux aéroports en regardant les routes aériennes disponibles opérés par des compagnies",
-            "path_view": "Vu du plus court chemin",
-            "route_details": "détails d'une route aérienne"
+          "map": "Map interactive des aéroports mondiaux avec clustering et filtres avancés",
+          "details": "Détails d'un aéroport avec pistes, fréquences ATC et navaids",
+          "runway": "Détails d'une piste",
+          "search": "Recherche et analyse avancé d'aéroports",
+          "routes": "Recherche de routes",
+          "navaids": "Navaids ou aides à la navigation aérienne",
+          "path": "Recherche du plus court chemin entre deux aéroports en regardant les routes aériennes disponibles opérés par des compagnies",
+          "path_view": "Vu du plus court chemin",
+          "route_details": "détails d'une route aérienne"
         }
       },
       "gigapayant": {
@@ -222,16 +310,34 @@
           "granularity": "Granularité"
         },
         "features": {
-            "fairness": { "title": "Répartition Équitable", "desc": "Distribution intelligente de la bande passante basée sur la consommation payée par chaque utilisateur" },
-            "billing": { "title": "Facturation à l'Usage", "desc": "Système de paiement au Mo/Go consommé, similaire aux forfaits mobiles des opérateurs téléphoniques" },
-            "security": { "title": "Codes Sécurisés 14 Caractères", "desc": "Génération algorithmique de codes d'accès uniques avec validation anti-fraude et gestion d'expiration" },
-            "admin": { "title": "Interface Administrateur", "desc": "Panneau de contrôle complet pour génération de codes, monitoring réseau et statistiques détaillées" },
-            "user": { "title": "Gestion Utilisateurs", "desc": "Interface utilisateur pour activation de codes, consultation de solde et historique de consommation" },
-            "scale": { "title": "Modèle Évolutif", "desc": "Architecture scalable pensée pour évolution vers une entreprise locale de fourniture d'accès Internet" }
+          "fairness": {
+            "title": "Répartition Équitable",
+            "desc": "Distribution intelligente de la bande passante basée sur la consommation payée par chaque utilisateur"
+          },
+          "billing": {
+            "title": "Facturation à l'Usage",
+            "desc": "Système de paiement au Mo/Go consommé, similaire aux forfaits mobiles des opérateurs téléphoniques"
+          },
+          "security": {
+            "title": "Codes Sécurisés 14 Caractères",
+            "desc": "Génération algorithmique de codes d'accès uniques avec validation anti-fraude et gestion d'expiration"
+          },
+          "admin": {
+            "title": "Interface Administrateur",
+            "desc": "Panneau de contrôle complet pour génération de codes, monitoring réseau et statistiques détaillées"
+          },
+          "user": {
+            "title": "Gestion Utilisateurs",
+            "desc": "Interface utilisateur pour activation de codes, consultation de solde et historique de consommation"
+          },
+          "scale": {
+            "title": "Modèle Évolutif",
+            "desc": "Architecture scalable pensée pour évolution vers une entreprise locale de fourniture d'accès Internet"
+          }
         },
         "images": {
-            "admin": "Interface administrateur pour la gestion des codes d'accès et le monitoring réseau",
-            "codes": "Gestion de code"
+          "admin": "Interface administrateur pour la gestion des codes d'accès et le monitoring réseau",
+          "codes": "Gestion de code"
         }
       },
       "scraping": {
@@ -244,14 +350,26 @@
           "automation": "Automation"
         },
         "features": {
-            "n8n": { "title": "Orchestration n8n", "desc": "Workflow d'automatisation complet gérant les appels API, le flux de données et le stockage" },
-            "scraping": { "title": "Scraping Automatisé", "desc": "Extraction massive de données contextuelles et d'images sur les établissements ciblés" },
-            "python": { "title": "Post-traitement Python", "desc": "Algorithmes de nettoyage de données pour structurer et valider les informations textuelles" },
-            "yolo": { "title": "Tri Visuel YOLO", "desc": "Validation des images sur Google Colab par IA pour garantir la pertinence du contenu visuel" }
+          "n8n": {
+            "title": "Orchestration n8n",
+            "desc": "Workflow d'automatisation complet gérant les appels API, le flux de données et le stockage"
+          },
+          "scraping": {
+            "title": "Scraping Automatisé",
+            "desc": "Extraction massive de données contextuelles et d'images sur les établissements ciblés"
+          },
+          "python": {
+            "title": "Post-traitement Python",
+            "desc": "Algorithmes de nettoyage de données pour structurer et valider les informations textuelles"
+          },
+          "yolo": {
+            "title": "Tri Visuel YOLO",
+            "desc": "Validation des images sur Google Colab par IA pour garantir la pertinence du contenu visuel"
+          }
         },
         "images": {
-            "result": "vue du résultat",
-            "workflow": "Workflow n8n complexe d'automatisation des tâches de scraping"
+          "result": "vue du résultat",
+          "workflow": "Workflow n8n complexe d'automatisation des tâches de scraping"
         }
       },
       "atc": {
@@ -264,16 +382,177 @@
           "response": "Temps réponse"
         },
         "features": {
-            "satellite": { "title": "Vue Satellite Temps Réel", "desc": "Interface graphique SDL2 offrant une visualisation immersive des opérations aéroportuaires et mouvements aériens" },
-            "parkings": { "title": "Gestion Intelligente Parkings", "desc": "Algorithme d'allocation optimale des positions de stationnement selon disponibilité, type d'appareil et durée estimée" },
-            "monitoring": { "title": "Monitoring Capacité", "desc": "Surveillance en temps réel de la capacité maximale de l'aéroport avec alertes automatiques de saturation" },
-            "trajectory": { "title": "Calcul Trajectoires Urgence", "desc": "Système de calcul automatique de routes de déroutement vers aéroports alternatifs en cas d'urgence ou fermeture" },
-            "scheduling": { "title": "Scheduling Automatisé", "desc": "Planification intelligente des horaires d'arrivée et de départ pour optimisation du flux de trafic aérien" },
-            "performance": { "title": "Performance C/SDL2", "desc": "Architecture bas niveau en C garantissant temps de réponse critiques et rendu graphique fluide via SDL2" }
+          "satellite": {
+            "title": "Vue Satellite Temps Réel",
+            "desc": "Interface graphique SDL2 offrant une visualisation immersive des opérations aéroportuaires et mouvements aériens"
+          },
+          "parkings": {
+            "title": "Gestion Intelligente Parkings",
+            "desc": "Algorithme d'allocation optimale des positions de stationnement selon disponibilité, type d'appareil et durée estimée"
+          },
+          "monitoring": {
+            "title": "Monitoring Capacité",
+            "desc": "Surveillance en temps réel de la capacité maximale de l'aéroport avec alertes automatiques de saturation"
+          },
+          "trajectory": {
+            "title": "Calcul Trajectoires Urgence",
+            "desc": "Système de calcul automatique de routes de déroutement vers aéroports alternatifs en cas d'urgence ou fermeture"
+          },
+          "scheduling": {
+            "title": "Scheduling Automatisé",
+            "desc": "Planification intelligente des horaires d'arrivée et de départ pour optimisation du flux de trafic aérien"
+          },
+          "performance": {
+            "title": "Performance C/SDL2",
+            "desc": "Architecture bas niveau en C garantissant temps de réponse critiques et rendu graphique fluide via SDL2"
+          }
         },
         "images": {
-            "tnr": "Aéroport international Ivato - Tananarive dans le simulateur",
-            "jfk": "JFK en cours de développement"
+          "tnr": "Aéroport international Ivato - Tananarive dans le simulateur",
+          "jfk": "JFK en cours de développement"
+        }
+      },
+      "taniko": {
+        "tagline": "Plateforme multi-services Taniko Madagascar",
+        "description": "Écosystème numérique complet : backend Laravel (API + OAuth Sanctum), frontends Next.js, agents IA en FastAPI et réseau de sites WordPress multi-tenant. Déployé sur Oracle Cloud avec Docker et Dokku, le tout derrière une infrastructure nginx. Mon rôle couvre le développement backend, l'architecture OAuth multi-tenant et l'intégration des agents IA.",
+        "stats": {
+          "services": "Services",
+          "sites": "Sites déployés",
+          "status": "Statut"
+        },
+        "features": {
+          "oauth": {
+            "title": "OAuth Multi-Tenant",
+            "desc": "Code flow Sanctum partagé : chaque domaine se connecte au même provider central"
+          },
+          "api": {
+            "title": "API Laravel",
+            "desc": "Endpoints versionnés /v1/, /v1/admin/ et /api/client/ avec validation de clés"
+          },
+          "ai": {
+            "title": "Agents IA FastAPI",
+            "desc": "Proxy d'IA (OpenAI-compatible) derrière le backend, isolation par conteneur"
+          },
+          "infra": {
+            "title": "Infrastructure Docker",
+            "desc": "Compose + nginx + Dokku sur Oracle Cloud ARM, limites de ressources par app"
+          },
+          "network": {
+            "title": "Réseau de Sites",
+            "desc": "Thème WordPress FSE + plugins réseau pour une présence multi-domaines"
+          },
+          "sanctum": {
+            "title": "Sécurité & OAuth",
+            "desc": "Access tokens personnels, API keys par service, CORS par domaine"
+          }
+        }
+      },
+      "network": {
+        "tagline": "Manidina Network — app full-stack",
+        "description": "Application full-stack moderne combinant un backend .NET 8 (API REST, EF Core, PostgreSQL) et un frontend Next.js/TypeScript. Architecture propre en couches, modèles de domaine et endpoints HTTP testés. Projet personnel servant de vitrine de mes compétences backend .NET et frontend moderne.",
+        "stats": {
+          "backend": "Backend",
+          "frontend": "Frontend",
+          "status": "Statut"
+        },
+        "features": {
+          "api": {
+            "title": "API .NET 8",
+            "desc": "REST API avec contrôleurs, services et repositories structurés"
+          },
+          "database": {
+            "title": "EF Core",
+            "desc": "Entity Framework Core avec PostgreSQL et migrations versionnées"
+          },
+          "ui": {
+            "title": "UI Next.js",
+            "desc": "Interface React moderne avec composants réutilisables et SSR"
+          },
+          "architecture": {
+            "title": "Architecture en couches",
+            "desc": "Séparation claire domain / application / infrastructure"
+          }
+        }
+      },
+      "vahy": {
+        "tagline": "Application Vahy — web + mobile",
+        "description": "Application multi-plateforme : frontend web en React 19/TypeScript/Vite, application mobile React Native, et backend associé. Conçue pour offrir une expérience unifiée sur mobile, tablette et desktop avec une base de code TypeScript partagée et un design system cohérent.",
+        "stats": {
+          "platforms": "Plateformes",
+          "frontend": "Frontend",
+          "mobile": "Mobile"
+        },
+        "features": {
+          "web": {
+            "title": "React 19 + Vite",
+            "desc": "SPA moderne avec composition de composants et performances optimisées"
+          },
+          "mobile": {
+            "title": "React Native",
+            "desc": "Application mobile native cross-platform partageant la logique métier"
+          },
+          "design": {
+            "title": "Design System",
+            "desc": "Composants UI cohérents entre toutes les plateformes"
+          },
+          "typescript": {
+            "title": "TypeScript strict",
+            "desc": "Typage complet du modèle de données et des API"
+          }
+        }
+      },
+      "rag": {
+        "tagline": "Agent conversationnel RAG",
+        "description": "Agent conversationnel pour l'administration malagasy basé sur le Retrieval-Augmented Generation (RAG) : indexation de documents officiels, recherche sémantique et réponses sourcées. Backend FastAPI avec pipeline d'embedding, vector store PostgreSQL et interface de questions-réponses.",
+        "stats": {
+          "type": "Type",
+          "lang": "Langage",
+          "status": "Statut"
+        },
+        "features": {
+          "index": {
+            "title": "Indexation RAG",
+            "desc": "Chunking, embeddings et stockage vectoriel des documents"
+          },
+          "search": {
+            "title": "Recherche sémantique",
+            "desc": "Interrogation par similarité sur le contenu indexé"
+          },
+          "api": {
+            "title": "API FastAPI",
+            "desc": "Endpoints de question-réponse avec métadonnées de sources"
+          },
+          "sources": {
+            "title": "Réponses sourcées",
+            "desc": "Citations des documents sources dans chaque réponse"
+          }
+        }
+      },
+      "edlr": {
+        "tagline": "Site EDLR — Enfants De La Rue Madagascar",
+        "description": "Site web de l'association Enfants De La Rue Madagascar : présentation des missions, actualités et formulaire de contact. Réalisé avec Laravel (admin Filament) pour une gestion de contenu simple par l'équipe de l'association, avec un design sobre et une optimisation SEO.",
+        "stats": {
+          "type": "Type",
+          "stack": "Stack",
+          "status": "Statut"
+        },
+        "features": {
+          "admin": {
+            "title": "Admin Filament",
+            "desc": "Interface d'administration Laravel pour gérer le contenu sans code"
+          },
+          "seo": {
+            "title": "SEO optimisé",
+            "desc": "Métadonnées, sitemap et structure sémantique soignés"
+          },
+          "responsive": {
+            "title": "Responsive",
+            "desc": "Design adaptatif mobile-first pour tous les supports"
+          },
+          "contact": {
+            "title": "Formulaire de contact",
+            "desc": "Messages gérés et notifiés via le panel admin"
+          }
         }
       }
     }
@@ -392,19 +671,45 @@
           }
         },
         "images": [
-          { "caption": "Tableau de bord principal" },
-          { "caption": "Graphe de développement" },
-          {"caption":"Ticket de vente à crédit"},
-          { "caption": "Gestion trésorerie" },
-          { "caption": "Détails d'un produit" },
-          { "caption": "Analytics avancé" },
-          { "caption": "Rapports financiers" },
-          { "caption": "Gestion mult-devise" },
-          { "caption": "Gestion des dépenses prévisionnels" },
-          { "caption": "Notification" },
-          { "caption": "Répartition des couts" },
-          { "caption": "Analyse des bénifices" },
-          { "caption": "Vue d'ensemble" }
+          {
+            "caption": "Tableau de bord principal"
+          },
+          {
+            "caption": "Graphe de développement"
+          },
+          {
+            "caption": "Ticket de vente à crédit"
+          },
+          {
+            "caption": "Gestion trésorerie"
+          },
+          {
+            "caption": "Détails d'un produit"
+          },
+          {
+            "caption": "Analytics avancé"
+          },
+          {
+            "caption": "Rapports financiers"
+          },
+          {
+            "caption": "Gestion mult-devise"
+          },
+          {
+            "caption": "Gestion des dépenses prévisionnels"
+          },
+          {
+            "caption": "Notification"
+          },
+          {
+            "caption": "Répartition des couts"
+          },
+          {
+            "caption": "Analyse des bénifices"
+          },
+          {
+            "caption": "Vue d'ensemble"
+          }
         ]
       },
       "soaharilandy": {
@@ -438,12 +743,24 @@
           }
         },
         "images": [
-            { "caption": "Page d'accueil" },
-            { "caption": "Scan QR Code" },
-            { "caption": "Liste des produits" },
-            { "caption": "Détail produit" },
-            { "caption": "Profil utilisateur" },
-            { "caption": "Historique" }
+          {
+            "caption": "Page d'accueil"
+          },
+          {
+            "caption": "Scan QR Code"
+          },
+          {
+            "caption": "Liste des produits"
+          },
+          {
+            "caption": "Détail produit"
+          },
+          {
+            "caption": "Profil utilisateur"
+          },
+          {
+            "caption": "Historique"
+          }
         ]
       }
     }
