@@ -36,28 +36,6 @@ const PROJECTS_DATA = [
       '/images/express_sale/express_sale12.png',
     ],
   },
-  {
-    key: 'soaharilandy',
-    featured: false,
-    status: 'live',
-    statusLabel: { fr: 'En production', en: 'Live' },
-    year: '2024',
-    tech: ['React', 'Node.js', 'MongoDB', 'QR Code', 'PWA'],
-    stats: [
-      { value: '6', label: { fr: 'Modules', en: 'Modules' } },
-      { value: 'QR', label: { fr: 'Traçabilité', en: 'Traceability' } },
-      { value: '100%', label: { fr: 'Certifié', en: 'Certified' } },
-    ],
-    gradient: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2f 50%, #0a0a0a 100%)',
-    accentColor: '#60a5fa',
-    image: '/images/soaharilandy/soaharilandy.jpg',
-    images: [
-      '/images/soaharilandy/soaharilandy.jpg',
-      '/images/soaharilandy/soa1.jpg',
-      '/images/soaharilandy/soa2.jpg',
-      '/images/soaharilandy/soa3.jpg',
-    ],
-  },
 ];
 
 function StatusBadge({ status, label }) {

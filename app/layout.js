@@ -4,14 +4,15 @@ import AppShell from '@/components/AppShell';
 export const metadata = {
   metadataBase: new URL('https://manidina.me'),
   title: {
-    default: 'Christian Herimanantsoa — Développeur Full-Stack & Automatisation IA',
+    default: 'Christian Herimanantsoa — Software Developer & AI Automation',
     template: '%s | Manidina.me',
   },
   description:
-    'Développeur full-stack (React, Next.js, Laravel, .NET, FastAPI) et spécialiste en automatisation (n8n, agents IA). Projets : plateforme Taniko, Manidina Network, RAG Malagasy, gestion de données aéroportuaires (89 000+ aéroports).',
+    'Software Developer spécialisé en AI Automation : Laravel, React, n8n et LangChain pour automatiser les emails, la comptabilité et les processus métier.',
   keywords: [
     'développeur Madagascar', 'full-stack', 'automatisation', 'n8n', 'agents IA',
     'React', 'Next.js', 'Laravel', 'FastAPI', '.NET', 'Pipedrive', 'Make',
+    'LangChain', 'comptabilité automatisée', 'Reference.mg', 'Enfants De La Rue',
     'Christian Herimanantsoa', 'Manidina', 'Antananarivo',
   ],
   authors: [{ name: 'Christian Herimanantsoa', url: 'https://manidina.me' }],
@@ -22,15 +23,15 @@ export const metadata = {
     alternateLocale: 'en_US',
     url: 'https://manidina.me',
     siteName: 'Manidina.me',
-    title: 'Christian Herimanantsoa — Développeur Full-Stack & Automatisation IA',
+    title: 'Christian Herimanantsoa — Software Developer & AI Automation',
     description:
-      'Solutions digitales, automatisation (n8n, agents IA) et développement full-stack. Basé à Antananarivo, Madagascar — je travaille avec des clients du monde entier.',
+      'Software Developer, Laravel/React et AI Automation avec n8n/LangChain pour les entreprises et les organisations.',
     images: [{ url: '/images/profile.jpeg', width: 120, height: 120, alt: 'Christian Herimanantsoa' }],
   },
   twitter: {
     card: 'summary',
-    title: 'Christian Herimanantsoa — Développeur Full-Stack & Automatisation IA',
-    description: 'Développement full-stack, automatisation n8n et agents IA. Basé à Antananarivo, Madagascar.',
+    title: 'Christian Herimanantsoa — Software Developer & AI Automation',
+    description: 'Développement Laravel/React, automatisation n8n/LangChain, systèmes d’information et gestion comptable.',
     images: ['/images/profile.jpeg'],
   },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
@@ -65,14 +66,14 @@ export default function RootLayout({ children }) {
               '@type': 'Person',
               name: 'HERIMANANTSOA Manitriniaina Christian',
               url: 'https://manidina.me',
-              jobTitle: 'Développeur Full-Stack & Automatisation IA',
+              jobTitle: 'Software Developer & AI Automation Specialist',
               email: 'mailto:contact@manidina.me',
               telephone: '+261340425089',
               address: { '@type': 'PostalAddress', addressLocality: 'Antananarivo', addressCountry: 'MG' },
               sameAs: ['https://github.com/herimanantsoa51'],
               knowsAbout: [
-                'React', 'Next.js', 'TypeScript', 'Laravel', '.NET', 'FastAPI',
-                'n8n', 'Make', 'Agents IA', 'Pipedrive', 'PostgreSQL', 'Docker', 'Google Cloud',
+                'React', 'Next.js', 'TypeScript', 'Laravel', 'FastAPI',
+                'n8n', 'LangChain', 'AI Automation', 'Accounting Automation', 'Information Systems', 'PostgreSQL', 'Docker', 'Google Cloud',
               ],
             }),
           }}

@@ -13,49 +13,27 @@ const SKILLS_CONFIG = {
   ai: { icon: 'brain', items: ['YOLO', 'OpenCV', 'PyTorch', 'Scikit-learn', 'LangChain', 'LlamaIndex', 'Whisper'] },
 };
 
+const EXPERIENCES = [
+  { key: 'reference_mg', icon: 'code', technologies: ['Laravel', 'React', 'n8n', 'LangChain'] },
+  { key: 'edlr', icon: 'social', technologies: ['Laravel', 'PostgreSQL', 'Automatisation', 'Gestion comptable'] },
+];
+
 const CATEGORIES = [
   {
-    id: 'production',
+    id: 'selected',
     icon: 'rocket',
     projects: [
-      { key: 'taniko', year: '2025 – aujourd’hui', client: 'Taniko Madagascar', technologies: ['Laravel', 'Sanctum OAuth', 'Next.js', 'FastAPI', 'TypeScript', 'WordPress', 'Docker', 'Oracle Cloud'], stats: [{ key: 'services', value: '5+' }, { key: 'sites', value: '10+' }, { key: 'status', value: 'Prod' }] },
-      { key: 'express_sale', year: '2024 – 2025', client: 'Boutique prêt-à-porter', technologies: ['React', 'Node.js', 'PostgreSQL', 'Redis', 'Docker', 'Python'], stats: [{ key: 'screens', value: '13+' }, { key: 'modules', value: '6' }, { key: 'transactions', value: '∞' }] },
-      { key: 'soaharilandy', year: '2024', client: 'Soie artisanale malgache', technologies: ['React', 'React Native', 'QR Code', 'PWA'], stats: [{ key: 'modules', value: '6' }, { key: 'qrcode', value: 'QR' }, { key: 'certified', value: '100%' }] },
-      { key: 'edlr', year: '2026', client: 'EDLR Madagascar', technologies: ['Laravel', 'Filament', 'PostgreSQL', 'SEO'], stats: [{ key: 'type', value: 'Web' }, { key: 'stack', value: 'Laravel' }, { key: 'status', value: 'Live' }] },
-      { key: 'rag', year: '2026', client: 'Projet personnel', technologies: ['Python', 'RAG', 'FastAPI', 'LangChain', 'PostgreSQL'], stats: [{ key: 'type', value: 'RAG' }, { key: 'lang', value: 'Python' }, { key: 'status', value: 'Prototype' }] },
-    ],
-  },
-  {
-    id: 'personal',
-    icon: 'sparkles',
-    projects: [
-      { key: 'network', year: '2026', client: 'Projet personnel', technologies: ['.NET 8', 'Next.js', 'PostgreSQL', 'TypeScript', 'REST API'], stats: [{ key: 'backend', value: '.NET 8' }, { key: 'frontend', value: 'Next.js' }, { key: 'status', value: 'Dev' }] },
-      { key: 'vahy', year: '2026', client: 'Projet personnel', technologies: ['React 19', 'React Native', 'TypeScript', 'Vite', 'Figma'], stats: [{ key: 'platforms', value: '3' }, { key: 'frontend', value: 'SPA' }, { key: 'mobile', value: 'RN' }] },
-      { key: 'manidina', year: '2025 – en cours', client: 'Projet personnel', technologies: ['React', 'Java', 'Javalin', 'PostgreSQL', 'Python', 'Pandas', 'Leaflet', 'Algorithms'], stats: [{ key: 'airports', value: '89 000+' }, { key: 'routes', value: '67 000+' }, { key: 'countries', value: '195' }] },
-      { key: 'trashlink', year: '2025 – en étude', client: 'Projet innovation', technologies: ['YOLO', 'RAG AI', 'Pathfinding', 'React Native'], stats: [{ key: 'precision', value: '95%' }, { key: 'time', value: '-40%' }, { key: 'classes', value: '12+' }] },
-      { key: 'gigapayant', year: '2025', client: 'Projet réseau collaboratif', technologies: ['Laravel', 'PHP', 'MySQL', 'Network Management'], stats: [{ key: 'codes', value: '∞' }, { key: 'security', value: '14ch' }, { key: 'granularity', value: 'Mo' }] },
-      { key: 'auth3', year: '2026', client: 'Projet sécurité', technologies: ['C++', 'OpenCV', 'C#', 'Biométrie'], stats: [{ key: 'factors', value: '3' }, { key: 'type', value: 'Bio' }, { key: 'status', value: 'Dev' }] },
-      { key: 'dqr', year: '2026', client: 'Projet IoT', technologies: ['C#', 'C++', 'QR', 'Embarqué'], stats: [{ key: 'type', value: 'QR' }, { key: 'backend', value: 'C#' }, { key: 'firmware', value: 'C++' }] },
-      { key: 'ainga', year: '2025 – 2026', client: 'Projet personnel', technologies: ['TypeScript', 'React', 'C#', 'Python'], stats: [{ key: 'apps', value: '3+' }, { key: 'type', value: 'Suite' }, { key: 'status', value: 'MVP+' }] },
-    ],
-  },
-  {
-    id: 'academic',
-    icon: 'plane',
-    projects: [
-      { key: 'soutenance', year: '2026', client: 'Projet académique L3', technologies: ['C#/.NET', 'Kotlin', 'QML', 'Web'], stats: [{ key: 'platforms', value: '4' }, { key: 'backend', value: 'C#' }, { key: 'status', value: 'Terminé' }] },
-      { key: 'exams', year: '2026', client: 'Projet académique L3', technologies: ['Java', 'Maven', 'React Native', 'Web'], stats: [{ key: 'backend', value: 'Java' }, { key: 'frontend', value: 'Web' }, { key: 'mobile', value: 'RN' }] },
-      { key: 'salles', year: '2026', client: 'Projet académique L3', technologies: ['Laravel', 'Blade', 'PostgreSQL'], stats: [{ key: 'type', value: 'Web' }, { key: 'stack', value: 'Laravel' }, { key: 'status', value: 'Terminé' }] },
-      { key: 'maintsovola', year: '2025 – en cours', client: 'Maintsovola', technologies: ['React', 'React Native', 'Supabase', 'Multi-plateforme'], stats: [{ key: 'farmers', value: '500+' }, { key: 'projects', value: '75' }, { key: 'communities', value: '25' }] },
-      { key: 'varotra', year: '2025', client: 'Projet académique L2', technologies: ['YOLO', 'OpenCV', 'Python', 'PHP', 'MySQL', 'ESP32', 'Raspberry Pi', 'Asterisk', 'Robotique'], stats: [{ key: 'precision', value: '97%' }, { key: 'time', value: 'Temps réel' }, { key: 'recognition', value: 'Ar' }] },
-      { key: 'scraping', year: '2025', client: 'Projet pédagogique', technologies: ['n8n', 'Python', 'YOLO', 'Google Colab', 'APIs'], stats: [{ key: 'sources', value: 'Multiple' }, { key: 'filtering', value: 'YOLO' }, { key: 'automation', value: 'n8n' }] },
-      { key: 'atc', year: '2024', client: 'Projet académique L1', technologies: ['C', 'SDL2', 'Algorithmes', 'Temps réel'], stats: [{ key: 'parkings', value: '25+' }, { key: 'emergency', value: '15' }, { key: 'response', value: '<100ms' }] },
+      { key: 'edlr', period: { fr: 'Expérience professionnelle', en: 'Professional experience' }, client: 'Enfants De La Rue (ONG)', technologies: ['Laravel', 'PostgreSQL', 'Gestion comptable', 'Automatisation'], stats: [{ key: 'type', value: 'SI' }, { key: 'stack', value: 'Laravel' }, { key: 'status', value: 'Réalisé' }] },
+      { key: 'taniko', period: { fr: '2025 – aujourd’hui', en: '2025 – present' }, client: 'Taniko Madagascar', technologies: ['Laravel', 'React / Next.js', 'FastAPI', 'Agents IA', 'Docker'], stats: [{ key: 'services', value: '5+' }, { key: 'sites', value: '10+' }, { key: 'status', value: 'Prod' }] },
+      { key: 'express_sale', period: { fr: 'Projet livré', en: 'Delivered project' }, client: 'Système de gestion commerciale', technologies: ['React', 'Node.js', 'PostgreSQL', 'Comptabilité', 'Docker'], stats: [{ key: 'screens', value: '13+' }, { key: 'modules', value: '6' }, { key: 'transactions', value: '∞' }] },
+      { key: 'rag', period: { fr: 'Projet IA', en: 'AI project' }, client: 'Projet personnel', technologies: ['Python', 'RAG', 'FastAPI', 'LangChain', 'PostgreSQL'], stats: [{ key: 'type', value: 'RAG' }, { key: 'lang', value: 'Python' }, { key: 'status', value: 'Prototype' }] },
     ],
   },
 ];
 
 export default function PortfolioPage() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language?.startsWith('en') ? 'en' : 'fr';
 
   return (
     <div style={{ padding: 'var(--spacing-xxl) 0 var(--spacing-lg)' }}>
@@ -99,6 +77,38 @@ export default function PortfolioPage() {
           </div>
         </section>
 
+        {/* Professional experience */}
+        <section style={{ marginBottom: '4rem' }}>
+          <h2 style={{ textAlign: 'center', marginBottom: '0.5rem' }}>{t('portfolio.experience_title')}</h2>
+          <p style={{ textAlign: 'center', maxWidth: 700, margin: '0 auto 2rem' }}>{t('portfolio.experience_desc')}</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '1.5rem' }}>
+            {EXPERIENCES.map((experience) => {
+              const details = t(`portfolio.experiences.${experience.key}`, { returnObjects: true });
+              return (
+                <motion.article key={experience.key} initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}
+                  style={{ padding: '1.75rem', borderRadius: 'var(--radius-md)', border: '1px solid var(--color-border)', background: 'var(--color-card-bg)' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
+                    <Icon name={experience.icon} size={24} />
+                    <div>
+                      <h3 style={{ fontSize: '1.2rem', marginBottom: '0.2rem' }}>{details.organization}</h3>
+                      <p style={{ fontSize: '0.9rem', color: 'var(--color-primary)', fontWeight: 600 }}>{details.role}</p>
+                    </div>
+                  </div>
+                  <p style={{ lineHeight: 1.7, marginBottom: '1rem' }}>{details.description}</p>
+                  <ul style={{ paddingLeft: '1.25rem', margin: '0 0 1.25rem', lineHeight: 1.7 }}>
+                    {Array.isArray(details.highlights) && details.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}
+                  </ul>
+                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                    {experience.technologies.map((technology) => (
+                      <span key={technology} style={{ padding: '0.25rem 0.7rem', borderRadius: 'var(--radius-sm)', fontSize: '0.8rem', background: 'var(--color-background-alt)', border: '1px solid var(--color-border)' }}>{technology}</span>
+                    ))}
+                  </div>
+                </motion.article>
+              );
+            })}
+          </div>
+        </section>
+
         {/* Projects by category */}
         <section>
           <h2 style={{ textAlign: 'center', marginBottom: '0.5rem' }}>{t('portfolio.deployments_title')}</h2>
@@ -121,7 +131,7 @@ export default function PortfolioPage() {
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '0.75rem', flexWrap: 'wrap', gap: '1rem' }}>
                       <div>
                         <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', marginBottom: '0.4rem', flexWrap: 'wrap' }}>
-                          <span style={{ fontSize: '0.85rem', color: 'var(--color-primary)', fontWeight: 600 }}>{project.year}</span>
+                          <span style={{ fontSize: '0.85rem', color: 'var(--color-primary)', fontWeight: 600 }}>{project.period?.[lang]}</span>
                           <span style={{ fontSize: '0.85rem', color: 'var(--color-text-secondary)' }}>• {project.client}</span>
                         </div>
                         <h4 style={{ fontSize: '1.3rem' }}>{t(`${pKey}.tagline`)}</h4>

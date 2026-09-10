@@ -2,34 +2,35 @@
 
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import Icon from './Icon';
 import '../components/i18n';
 
 const FEATURED = [
   {
-    key: 'automation',
-    image: '/images/n8n/n8n1.png',
-    tech: ['n8n', 'Make', 'Agents IA', 'APIs'],
+    key: 'reference',
+    icon: 'code',
+    tech: ['Laravel', 'React', 'APIs'],
     gradient: 'linear-gradient(135deg, #0a0a0a 0%, #1a2f1a 50%, #0a0a0a 100%)',
     accent: '#7FFF00',
   },
   {
-    key: 'appweb',
-    image: '/images/express_sale/express_sale1.png',
-    tech: ['React', 'Laravel', 'PostgreSQL', 'Node.js'],
+    key: 'edlr',
+    icon: 'social',
+    tech: ['Laravel', 'PostgreSQL', 'Information System'],
     gradient: 'linear-gradient(135deg, #0a0a0a 0%, #1a1a2f 50%, #0a0a0a 100%)',
     accent: '#60a5fa',
   },
   {
-    key: 'aviation',
-    image: '/images/manidina_aviation/manidina_aviation1.png',
-    tech: ['React', 'Java', 'PostgreSQL', 'Pandas'],
+    key: 'automation',
+    image: '/images/n8n/n8n1.png',
+    tech: ['n8n', 'LangChain', 'APIs'],
     gradient: 'linear-gradient(135deg, #0a0a0a 0%, #2f1a2f 50%, #0a0a0a 100%)',
     accent: '#c084fc',
   },
   {
-    key: 'ia',
-    image: '/images/varotra_intelliz/varotra_intelliz.png',
-    tech: ['YOLO', 'OpenCV', 'Python', 'RAG'],
+    key: 'accounting',
+    image: '/images/express_sale/express_sale1.png',
+    tech: ['React', 'PostgreSQL', 'Accounting'],
     gradient: 'linear-gradient(135deg, #0a0a0a 0%, #1a2f2f 50%, #0a0a0a 100%)',
     accent: '#22d3ee',
   },
@@ -87,14 +88,18 @@ export default function ProjectsPreview() {
                 e.currentTarget.style.borderColor = 'var(--color-border)';
               }}
             >
-              <div style={{ aspectRatio: '16/10', overflow: 'hidden', background: '#111' }}>
-                <img
-                  src={p.image}
-                  alt={t(`projects_preview.featured.${p.key}.name`)}
-                  loading="lazy"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                  onError={(e) => { e.target.style.display = 'none'; }}
-                />
+              <div style={{ aspectRatio: '16/10', overflow: 'hidden', background: p.gradient, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                {p.image ? (
+                  <img
+                    src={p.image}
+                    alt={t(`projects_preview.featured.${p.key}.name`)}
+                    loading="lazy"
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                    onError={(e) => { e.target.style.display = 'none'; }}
+                  />
+                ) : (
+                  <Icon name={p.icon} size={56} />
+                )}
               </div>
               <div style={{ padding: '1.5rem' }}>
                 <h3 style={{ fontSize: '1.15rem', marginBottom: '0.5rem' }}>

@@ -9,7 +9,7 @@
     "available": "Disponible pour de nouvelles missions",
     "title_main": "Des solutions numériques",
     "title_accent": "simples et efficaces",
-    "subtitle": "Développeur full-stack et spécialiste en automatisation : je transforme les processus manuels de votre entreprise en solutions digitales accessibles et performantes — applications web, workflows n8n/Make et agents IA.",
+    "subtitle": "Software Developer et spécialiste en AI Automation : je conçois des applications Laravel/React et des workflows n8n/LangChain qui automatisent les emails, la comptabilité et les processus métier.",
     "cta_services": "Voir mes projets",
     "cta_projects": "Mon portfolio",
     "stats": {
@@ -59,21 +59,21 @@
     "description": "Découvrez comment j'aide les entreprises à automatiser leurs processus, organiser leurs données et gagner en efficacité au quotidien.",
     "cta": "Voir tous les projets",
     "featured": {
+      "reference": {
+        "name": "Logiciels métier Laravel & React",
+        "desc": "Applications métier avec Laravel et React, conçues pour structurer les opérations et donner une base fiable aux automatisations."
+      },
+      "edlr": {
+        "name": "Système d'information associatif",
+        "desc": "Parrainage d'enfants, suivi scolaire, messages automatisés selon les résultats et gestion comptable pour une ONG malgache."
+      },
       "automation": {
-        "name": "Automatisation & Workflows",
-        "desc": "Workflows n8n et Make orchestrant le scraping, la validation IA (YOLO), les notifications et l'intégration d'APIs tierces."
+        "name": "Automatisation n8n & LangChain",
+        "desc": "Workflows pour emails, notifications, tâches comptables et processus métier avec intégrations IA."
       },
-      "appweb": {
-        "name": "Applications Web & POS",
-        "desc": "Solutions de gestion complètes en production : POS multi-devises, stock FIFO, comptabilité automatisée et tableaux de bord."
-      },
-      "aviation": {
-        "name": "Intelligence Aéroportuaire",
-        "desc": "Agrégation et exploitation de 89 000+ aéroports mondiaux : cartographie interactive, analytics et calcul de routes optimales."
-      },
-      "ia": {
-        "name": "Vision & Intelligence Artificielle",
-        "desc": "Détection d'objets YOLO, reconnaissance de billets, assistants RAG et bras robotique guidé par IA."
+      "accounting": {
+        "name": "Gestion commerciale & comptabilité",
+        "desc": "Solution de gestion avec ventes, stock FIFO, multi-devises, marges, rapprochement bancaire et tableaux de bord."
       }
     },
     "stats": {
@@ -112,14 +112,38 @@
     "p1_prefix": "Manidina est créé et principalement géré par",
     "p1_link": "Christian HERIMANANTSOA",
     "p1_suffix": ", analyste en systèmes d'information , passionné par la création de solutions numériques simples et efficaces.",
-    "p2": "Avec une expertise en développement web, automatisation et intelligence artificielle, Christian accompagne les petites entreprises dans leur transformation digitale avec des outils adaptés à leurs besoins réels.",
-    "p3": "Selon les projets, Christian collabore avec d'autres experts pour offrir des solutions complètes et sur mesure."
+    "p2": "Avec une expérience chez Reference.mg et dans l'ONG Enfants De La Rue, Christian développe des systèmes d'information et des automatisations qui répondent à des besoins métier réels : Laravel, React, n8n, LangChain et gestion comptable.",
+    "p3": "Son objectif est simple : transformer un processus manuel en outil fiable, mesurable et facile à utiliser."
   },
   "portfolio": {
-    "profile_desc": "Je suis <strong>HERIMANANTSOA Manitriniaina Christian</strong>, analyste en systèmes d'information et passionné d'Intelligence Artificielle, actuellement en formation à la <a href=\"https://mit-ua.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Mention Informatique et Technologie</a> de l'<a href=\"https://www.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">Université d'Antananarivo</a>.<br/><br/>🚀 <strong>Ce qui me définit :</strong> Je conçois des solutions technologiques qui ont un impact réel — de la robotique intelligente avec vision par ordinateur aux plateformes connectant agriculteurs et investisseurs. Ma passion pour l'<strong>aviation</strong> m'inspire à créer des systèmes optimisés et fiables, comme mon projet personnel agrégant les données de <strong>89 000+ aéroports mondiaux</strong>.<br/><br/>🌍 <strong>Ma mission :</strong> Utiliser la technologie pour résoudre les défis concrets de Madagascar — agriculture durable, gestion des déchets, accès équitable à Internet — tout en développant des compétences de niveau international en IA, automatisation et développement logiciel.",
+    "profile_desc": "Je suis <strong>HERIMANANTSOA Manitriniaina Christian</strong>, Software Developer et spécialiste en automatisation. Je conçois des applications métier avec <strong>Laravel</strong> et <strong>React</strong>, ainsi que des workflows <strong>n8n</strong> et des intégrations <strong>LangChain</strong> pour automatiser les emails, la comptabilité et les processus opérationnels. Mon travail combine développement fiable, systèmes d'information et impact concret pour les entreprises et les organisations.",
+    "experience_title": "Expériences professionnelles",
+    "experience_desc": "Des réalisations concrètes où le développement logiciel sert l'automatisation, la gestion et l'impact social.",
+    "experiences": {
+      "reference_mg": {
+        "organization": "Reference.mg",
+        "role": "Software Developer & Automation Developer",
+        "description": "Chez Reference.mg, j'ai développé des solutions métier avec Laravel et React, puis automatisé des emails, des tâches comptables et des processus métier avec n8n et LangChain.",
+        "highlights": [
+          "Applications métier avec Laravel et React",
+          "Workflows n8n pour emails, notifications et opérations récurrentes",
+          "Automatisation comptable et processus métier avec des intégrations IA/LangChain"
+        ]
+      },
+      "edlr": {
+        "organization": "Enfants De La Rue (ONG)",
+        "role": "Software Developer & Information Systems",
+        "description": "Pour cette ONG qui soutient la scolarisation d'enfants de la rue à Madagascar grâce au parrainage, j'ai conçu un système reliant chaque enfant à un parrain à l'étranger.",
+        "highlights": [
+          "Mise en relation enfant–parrain international",
+          "Messages automatisés selon les résultats scolaires",
+          "Système d'information Laravel et gestion comptable"
+        ]
+      }
+    },
     "skills_title": "Compétences Techniques",
     "deployments_title": "Mes Déploiements & Réalisations",
-    "deployments_desc": "Voici où j'ai déjà déployé mes compétences : des solutions complètes mises en production pour des clients réels, des projets encore en étude et en attente d'investisseurs, et des projets purement pédagogiques nés de ma passion.",
+    "deployments_desc": "Une sélection volontaire de projets professionnels et de solutions métier : systèmes d'information Laravel, applications React, automatisations n8n/LangChain et outils de gestion comptable.",
     "cta_title": "Intéressé par l'un de mes projets ?",
     "cta_text": "Discutons de votre activité, comment on peut l'optimiser ensemble",
     "cta_btn": "Me contacter",
@@ -529,29 +553,29 @@
         }
       },
       "edlr": {
-        "tagline": "Site EDLR — Enfants De La Rue Madagascar",
-        "description": "Site web de l'association Enfants De La Rue Madagascar : présentation des missions, actualités et formulaire de contact. Réalisé avec Laravel (admin Filament) pour une gestion de contenu simple par l'équipe de l'association, avec un design sobre et une optimisation SEO.",
+        "tagline": "Système d'information pour le parrainage scolaire",
+        "description": "Conception d'un système d'information pour l'ONG Enfants De La Rue Madagascar, qui soutient la scolarisation d'enfants grâce au parrainage. La plateforme relie chaque enfant à un parrain à l'étranger, automatise les messages selon les résultats scolaires et centralise la gestion comptable.",
         "stats": {
-          "type": "Type",
-          "stack": "Stack",
-          "status": "Statut"
+          "type": "Système d'information",
+          "stack": "Laravel",
+          "status": "Réalisé"
         },
         "features": {
-          "admin": {
-            "title": "Admin Filament",
-            "desc": "Interface d'administration Laravel pour gérer le contenu sans code"
+          "sponsorship": {
+            "title": "Parrainage international",
+            "desc": "Association d'un enfant avec un parrain à l'étranger et suivi de la relation"
           },
-          "seo": {
-            "title": "SEO optimisé",
-            "desc": "Métadonnées, sitemap et structure sémantique soignés"
+          "education": {
+            "title": "Suivi scolaire",
+            "desc": "Résultats scolaires structurés pour alimenter le suivi et les communications"
           },
-          "responsive": {
-            "title": "Responsive",
-            "desc": "Design adaptatif mobile-first pour tous les supports"
+          "messaging": {
+            "title": "Messages automatisés",
+            "desc": "Notifications et messages déclenchés selon les résultats scolaires"
           },
-          "contact": {
-            "title": "Formulaire de contact",
-            "desc": "Messages gérés et notifiés via le panel admin"
+          "accounting": {
+            "title": "Gestion comptable",
+            "desc": "Centralisation des informations financières de l'association"
           }
         }
       },
@@ -769,9 +793,7 @@
       }
     },
     "categories": {
-      "production": "En production & clients",
-      "personal": "Projets personnels",
-      "academic": "Projets académiques",
+      "selected": "Projets sélectionnés",
       "projects": "projets",
       "project": "projet"
     }

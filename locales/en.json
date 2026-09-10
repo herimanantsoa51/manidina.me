@@ -8,7 +8,7 @@
   "hero": {
     "title_main": "Digital solutions",
     "title_accent": "simple and effective",
-    "subtitle": "Full-stack developer and automation specialist: I turn your company's manual processes into accessible, high-performing digital solutions — web apps, n8n/Make workflows and AI agents.",
+    "subtitle": "Software Developer and AI Automation specialist: I build Laravel/React applications and n8n/LangChain workflows that automate emails, accounting and business processes.",
     "cta_services": "View my projects",
     "cta_projects": "My portfolio",
     "stats": {
@@ -64,21 +64,21 @@
       "sectors": "Business Sectors"
     },
     "featured": {
+      "reference": {
+        "name": "Laravel & React Business Software",
+        "desc": "Business applications with Laravel and React, designed to structure operations and provide a reliable foundation for automation."
+      },
+      "edlr": {
+        "name": "Non-profit information system",
+        "desc": "Child sponsorship, school tracking, result-based automated messages and accounting management for a Malagasy NGO."
+      },
       "automation": {
-        "name": "Automation & Workflows",
-        "desc": "n8n and Make workflows orchestrating scraping, AI validation (YOLO), notifications and third-party API integration."
+        "name": "n8n & LangChain Automation",
+        "desc": "Workflows for emails, notifications, accounting tasks and business processes with AI integrations."
       },
-      "appweb": {
-        "name": "Web Apps & POS",
-        "desc": "Complete production-ready management systems: multi-currency POS, FIFO inventory, automated accounting and dashboards."
-      },
-      "aviation": {
-        "name": "Airport Intelligence",
-        "desc": "Aggregation and processing of 89,000+ world airports: interactive mapping, analytics and optimal route computation."
-      },
-      "ia": {
-        "name": "Vision & Artificial Intelligence",
-        "desc": "YOLO object detection, banknote recognition, RAG assistants and AI-guided robotic arm."
+      "accounting": {
+        "name": "Business management & accounting",
+        "desc": "Management solution with sales, FIFO inventory, multi-currency, margins, bank reconciliation and dashboards."
       }
     }
   },
@@ -112,14 +112,38 @@
     "p1_prefix": "Manidina is created and mainly managed by",
     "p1_link": "Christian HERIMANANTSOA",
     "p1_suffix": ", an Information Systems Analyst about creating simple and efficient digital solutions.",
-    "p2": "With expertise in web development, automation, and artificial intelligence, Christian accompanies small businesses in their digital transformation with tools adapted to their real needs.",
-    "p3": "Depending on the projects, Christian collaborates with other experts to offer complete and tailored solutions."
+    "p2": "With experience at Reference.mg and the Enfants De La Rue NGO, Christian builds information systems and automations for real operational needs: Laravel, React, n8n, LangChain and accounting management.",
+    "p3": "His goal is simple: turn a manual process into a reliable, measurable and easy-to-use tool."
   },
   "portfolio": {
-    "profile_desc": "Student in <a href=\"https://mit-ua.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Computer Science</a> at the <a href=\"https://siansa.univ-antananarivo.mg/\" target=\"_blank\" rel=\"noopener noreferrer\">Faculty of Sciences</a> of the <a href=\"https://www.univ-antananarivo.mg\" target=\"_blank\" rel=\"noopener noreferrer\">University of Antananarivo</a>, passionate about aviation and optimization technologies. My projects are inspired by my fascination for aeronautics, system efficiency, and artificial intelligence. My goal is to combine my development skills with the aerospace sector to create innovative solutions.",
+    "profile_desc": "I am <strong>HERIMANANTSOA Manitriniaina Christian</strong>, a Software Developer and automation specialist. I build business applications with <strong>Laravel</strong> and <strong>React</strong>, as well as <strong>n8n</strong> workflows and <strong>LangChain</strong> integrations to automate emails, accounting and operational processes. My work combines reliable software, information systems and measurable value for businesses and organizations.",
+    "experience_title": "Professional Experience",
+    "experience_desc": "Concrete work where software development supports automation, operations and social impact.",
+    "experiences": {
+      "reference_mg": {
+        "organization": "Reference.mg",
+        "role": "Software Developer & Automation Developer",
+        "description": "At Reference.mg, I built business solutions with Laravel and React, then automated emails, accounting tasks and business processes with n8n and LangChain.",
+        "highlights": [
+          "Business applications with Laravel and React",
+          "n8n workflows for emails, notifications and recurring operations",
+          "Accounting and business-process automation with AI/LangChain integrations"
+        ]
+      },
+      "edlr": {
+        "organization": "Enfants De La Rue (NGO)",
+        "role": "Software Developer & Information Systems",
+        "description": "For this NGO supporting the schooling of street children in Madagascar through sponsorship, I designed a system linking each child with a sponsor abroad.",
+        "highlights": [
+          "International child–sponsor matching",
+          "Automated messages based on school results",
+          "Laravel information system and accounting management"
+        ]
+      }
+    },
     "skills_title": "Technical Skills",
     "deployments_title": "My Deployments & Achievements",
-    "deployments_desc": "Here is where I have already deployed my skills: complete solutions put into production for real clients, projects still under study and awaiting investors, and purely educational projects born from my passion.",
+    "deployments_desc": "A focused selection of professional work and business solutions: Laravel information systems, React applications, n8n/LangChain automations and accounting tools.",
     "cta_title": "Interested in my profile or my projects?",
     "cta_text": "Let's discuss your projects and how I can help you",
     "cta_btn": "Contact me",
@@ -556,29 +580,29 @@
         }
       },
       "edlr": {
-        "tagline": "EDLR website — Street Children Madagascar",
-        "description": "Website for the Enfants De La Rue Madagascar association: missions, news and contact form. Built with Laravel (Filament admin) for simple content management by the association team, with a sober design and SEO optimization.",
+        "tagline": "Information system for education sponsorship",
+        "description": "Information system designed for the Enfants De La Rue Madagascar NGO, which supports children's schooling through sponsorship. The platform links each child to a sponsor abroad, automates messages based on school results and centralizes accounting management.",
         "stats": {
-          "type": "Type",
-          "stack": "Stack",
-          "status": "Status"
+          "type": "Information system",
+          "stack": "Laravel",
+          "status": "Delivered"
         },
         "features": {
-          "admin": {
-            "title": "Filament Admin",
-            "desc": "Laravel admin interface to manage content without code"
+          "sponsorship": {
+            "title": "International sponsorship",
+            "desc": "Matching a child with a sponsor abroad and tracking the relationship"
           },
-          "seo": {
-            "title": "Optimized SEO",
-            "desc": "Careful metadata, sitemap and semantic structure"
+          "education": {
+            "title": "School tracking",
+            "desc": "Structured school results powering follow-up and communications"
           },
-          "responsive": {
-            "title": "Responsive",
-            "desc": "Mobile-first adaptive design for all devices"
+          "messaging": {
+            "title": "Automated messages",
+            "desc": "Notifications and messages triggered by school results"
           },
-          "contact": {
-            "title": "Contact form",
-            "desc": "Messages managed and notified via the admin panel"
+          "accounting": {
+            "title": "Accounting management",
+            "desc": "Centralized financial information for the organization"
           }
         }
       },
@@ -769,9 +793,7 @@
       }
     },
     "categories": {
-      "production": "In production & clients",
-      "personal": "Personal projects",
-      "academic": "Academic projects",
+      "selected": "Selected projects",
       "projects": "projects",
       "project": "project"
     }
