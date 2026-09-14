@@ -25,7 +25,7 @@ const CATEGORIES = [
     projects: [
       { key: 'edlr', period: { fr: 'Expérience professionnelle', en: 'Professional experience' }, client: 'Enfants De La Rue (ONG)', technologies: ['Laravel', 'PostgreSQL', 'Gestion comptable', 'Automatisation'], stats: [{ key: 'type', value: 'SI' }, { key: 'stack', value: 'Laravel' }, { key: 'status', value: 'Réalisé' }] },
       { key: 'taniko', period: { fr: '2025 – aujourd’hui', en: '2025 – present' }, client: 'Taniko Madagascar', technologies: ['Laravel', 'React / Next.js', 'FastAPI', 'Agents IA', 'Docker'], stats: [{ key: 'services', value: '5+' }, { key: 'sites', value: '10+' }, { key: 'status', value: 'Prod' }] },
-      { key: 'express_sale', period: { fr: 'Projet livré', en: 'Delivered project' }, client: 'Système de gestion commerciale', technologies: ['React', 'Node.js', 'PostgreSQL', 'Comptabilité', 'Docker'], stats: [{ key: 'screens', value: '13+' }, { key: 'modules', value: '6' }, { key: 'transactions', value: '∞' }] },
+      { key: 'express_sale', period: { fr: 'Projet livré', en: 'Delivered project' }, client: 'Système de gestion commerciale', technologies: ['React', 'Node.js', 'PostgreSQL', 'Comptabilité', 'Docker'], stats: [{ key: 'screens', value: '13+' }, { key: 'modules', value: '6' }, { key: 'transactions', value: '∞' }], image: '/images/express_sale/express_sale1.png', gallery: ['/images/express_sale/express_sale2.png', '/images/express_sale/express_sale3.png', '/images/express_sale/express_sale_ticket.jpeg', '/images/express_sale/express_sale5.png'] },
       { key: 'rag', period: { fr: 'Projet IA', en: 'AI project' }, client: 'Projet personnel', technologies: ['Python', 'RAG', 'FastAPI', 'LangChain', 'PostgreSQL'], stats: [{ key: 'type', value: 'RAG' }, { key: 'lang', value: 'Python' }, { key: 'status', value: 'Prototype' }] },
     ],
   },
@@ -138,6 +138,19 @@ export default function PortfolioPage() {
                       </div>
                     </div>
                     <p style={{ marginBottom: '1.5rem', lineHeight: 1.7 }}>{t(`${pKey}.description`)}</p>
+
+                    {project.image && (
+                      <div style={{ marginBottom: '1rem', borderRadius: 'var(--radius-sm)', overflow: 'hidden', border: '1px solid var(--color-border)' }}>
+                        <img src={project.image} alt={t(`${pKey}.tagline`)} loading="lazy" style={{ width: '100%', aspectRatio: '16/9', objectFit: 'cover', display: 'block' }} onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                      </div>
+                    )}
+                    {Array.isArray(project.gallery) && project.gallery.length > 0 && (
+                      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))', gap: '0.5rem', marginBottom: '1.25rem' }}>
+                        {project.gallery.map((src) => (
+                          <img key={src} src={src} alt="" loading="lazy" style={{ width: '100%', aspectRatio: '16/10', objectFit: 'cover', borderRadius: 8, border: '1px solid var(--color-border)', display: 'block' }} onError={(e) => { e.currentTarget.style.display = 'none'; }} />
+                        ))}
+                      </div>
+                    )}
 
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1.25rem' }}>
                       {project.technologies.map(tech => (
