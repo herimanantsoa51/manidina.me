@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
               email: 'mailto:contact@manidina.me',
               telephone: '+261340425089',
               address: { '@type': 'PostalAddress', addressLocality: 'Antananarivo', addressCountry: 'MG' },
-              sameAs: ['https://github.com/herimanantsoa51'],
+              sameAs: ['https://github.com/herimanantsoa51', 'https://www.linkedin.com/in/christian-manidina/', 'https://www.upwork.com/freelancers/~010f961419cc492dcd'],
               knowsAbout: [
                 'React', 'Next.js', 'TypeScript', 'Laravel', 'FastAPI',
                 'n8n', 'LangChain', 'AI Automation', 'Accounting Automation', 'Information Systems', 'PostgreSQL', 'Docker', 'Google Cloud',

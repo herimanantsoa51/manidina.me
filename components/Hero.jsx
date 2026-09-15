@@ -7,8 +7,8 @@ import '../components/i18n';
 
 const SOCIALS = [
   { href: 'https://github.com/herimanantsoa51', icon: 'github', label: 'GitHub' },
-  { href: 'https://www.linkedin.com/in/christian-herimanantsoa', icon: 'linkedin', label: 'LinkedIn' },
-  { href: 'https://www.upwork.com/freelancers/~herimanantsoa51', icon: 'upwork', label: 'Upwork' },
+  { href: 'https://www.linkedin.com/in/christian-manidina/', icon: 'linkedin', label: 'LinkedIn' },
+  { href: 'https://www.upwork.com/freelancers/~010f961419cc492dcd', icon: 'upwork', label: 'Upwork' },
   { href: 'mailto:contact@manidina.me', icon: 'mail', label: 'Email' },
 ];
 
